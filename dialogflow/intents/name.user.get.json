@@ -1,0 +1,63 @@
+{
+  "id": "c674ab0a-b895-434e-bf61-f4fe2c0efe21",
+  "name": "name.user.get",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.get",
+      "affectedContexts": [
+        {
+          "name": "save-name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "51332113-e0c0-42e8-a350-4ea5d04fe947",
+          "required": false,
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        },
+        {
+          "id": "c8b398b6-9a53-4b0b-a905-a5aed707daf2",
+          "required": false,
+          "dataType": "@current",
+          "name": "curname",
+          "value": "#save-name.given-name",
+          "isList": false
+        },
+        {
+          "id": "66187d86-8e06-41c0-90a9-39b894602ad7",
+          "required": false,
+          "dataType": "@name-type",
+          "name": "name-type",
+          "value": "$name-type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I know you as #save-name.given-name",
+            "#save-name.given-name is your name."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525081953,
+  "fallbackIntent": false,
+  "events": []
+}

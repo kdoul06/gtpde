@@ -1,0 +1,62 @@
+{
+  "id": "8d886b31-84f2-4bf3-be3d-c65af68a84e2",
+  "name": "name.user.delete",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.delete",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "05a3810b-e401-4d93-8b22-85fdb8a9d250",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "f1376222-8d53-4b46-b17a-9e1e8562cc9c",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "0b4a95cb-b926-4994-a38c-a2123d11f4e3",
+          "required": false,
+          "dataType": "@nick-name",
+          "name": "nick-name",
+          "value": "$nick-name",
+          "isList": false
+        },
+        {
+          "id": "0c5517f9-fc97-4778-a8ae-ae3df973f482",
+          "required": false,
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "$given-name deleted!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525044075,
+  "fallbackIntent": false,
+  "events": []
+}

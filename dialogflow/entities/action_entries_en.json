@@ -1,0 +1,22 @@
+[
+  {
+    "value": "on",
+    "synonyms": [
+      "on",
+      "more",
+      "give me more",
+      "turn on"
+    ]
+  },
+  {
+    "value": "off",
+    "synonyms": [
+      "off",
+      "close",
+      "less",
+      "give me less",
+      "shut down",
+      "turn off"
+    ]
+  }
+]

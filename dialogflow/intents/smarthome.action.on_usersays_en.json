@@ -1,0 +1,248 @@
+[
+  {
+    "id": "a81243d9-df07-4960-a328-0622db9af009",
+    "data": [
+      {
+        "text": "give me more",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1509402378
+  },
+  {
+    "id": "9ad97307-f1c9-49e9-b8b7-37688c3f1420",
+    "data": [
+      {
+        "text": "light",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1509401872
+  },
+  {
+    "id": "14144bb6-a15a-4cf8-a2bc-d715dc2bc3c0",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "834124f9-709e-4d52-b1c4-45c3d7693f4f",
+    "data": [
+      {
+        "text": "can you ",
+        "userDefined": false
+      },
+      {
+        "text": "turn on",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "radio",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e4fa75ff-defc-4a9f-9f09-b9679a3f6949",
+    "data": [
+      {
+        "text": "more",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": true
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "office",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1507467653
+  },
+  {
+    "id": "66b6c810-f0a1-4881-8534-4a683d3dc636",
+    "data": [
+      {
+        "text": "give me more",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1509402378
+  },
+  {
+    "id": "a4c4c239-85ea-4926-95c1-16cefbcf5899",
+    "data": [
+      {
+        "text": "turn on",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "68066d7a-af9f-4e42-9506-d3437552327a",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "more",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "alias": "item",
+        "meta": "@item",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9ead47f1-2c8f-4dc2-9e63-0fe5b70f1e4e",
+    "data": [
+      {
+        "text": "I need ",
+        "userDefined": false
+      },
+      {
+        "text": "more light",
+        "alias": "action",
+        "meta": "@action",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

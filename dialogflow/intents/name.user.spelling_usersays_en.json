@@ -1,0 +1,124 @@
+[
+  {
+    "id": "cadaf677-5a03-420b-9028-48202eca515e",
+    "data": [
+      {
+        "text": "how do you spell my ",
+        "userDefined": false
+      },
+      {
+        "text": "middle name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b46c008c-8c9d-4cde-af5a-759940f97fde",
+    "data": [
+      {
+        "text": "spell my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "79f9875f-c409-4094-bc25-de6b0c3fd4b8",
+    "data": [
+      {
+        "text": "how ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " you spell my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6ddff781-992e-43f3-829c-308f3e799269",
+    "data": [
+      {
+        "text": "check my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " spelling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "523bfa70-9ff2-407b-8aed-6cdf0aed3880",
+    "data": [
+      {
+        "text": "spell my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a2dacbc-b4a5-4afb-b0c0-2b5d10048949",
+    "data": [
+      {
+        "text": "check my ",
+        "userDefined": false
+      },
+      {
+        "text": "surname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " spelling",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

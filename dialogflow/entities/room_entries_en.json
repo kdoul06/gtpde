@@ -1,0 +1,20 @@
+[
+  {
+    "value": "office",
+    "synonyms": [
+      "office"
+    ]
+  },
+  {
+    "value": "kitchen",
+    "synonyms": [
+      "kitchen"
+    ]
+  },
+  {
+    "value": "bedroom",
+    "synonyms": [
+      "bedroom"
+    ]
+  }
+]

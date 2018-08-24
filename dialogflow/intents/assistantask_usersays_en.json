@@ -1,0 +1,142 @@
+[
+  {
+    "id": "fd891c84-bc8d-471b-b514-202371388026",
+    "data": [
+      {
+        "text": "ask",
+        "alias": "hotword",
+        "meta": "@hotword",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "google",
+        "alias": "assist",
+        "meta": "@assist",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "the recipe",
+        "alias": "pass-text",
+        "meta": "@pass-text",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1525084079
+  },
+  {
+    "id": "3a052b6d-b598-4604-9891-ee3f22507fc7",
+    "data": [
+      {
+        "text": "Hey",
+        "alias": "hotword",
+        "meta": "@hotword",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "google",
+        "alias": "assist",
+        "meta": "@assist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1525084079
+  },
+  {
+    "id": "a8f8fbfb-57da-4cb9-b0f2-7fead27ab269",
+    "data": [
+      {
+        "text": "Google",
+        "alias": "assist",
+        "meta": "@assist",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1525084079
+  },
+  {
+    "id": "e3940a47-0ee2-45a0-94fb-8923b7835605",
+    "data": [
+      {
+        "text": "ask",
+        "alias": "hotword",
+        "meta": "@hotword",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "google",
+        "alias": "assist",
+        "meta": "@assist",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "the temperature",
+        "alias": "pass-text",
+        "meta": "@pass-text",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525084079
+  },
+  {
+    "id": "86f36df4-3288-4ade-9306-a3da042d8a51",
+    "data": [
+      {
+        "text": "ask",
+        "alias": "hotword",
+        "meta": "@hotword",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "google",
+        "alias": "assist",
+        "meta": "@assist",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "for a cake recipe",
+        "alias": "pass-text",
+        "meta": "@pass-text",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 4,
+    "updated": 1525084079
+  }
+]

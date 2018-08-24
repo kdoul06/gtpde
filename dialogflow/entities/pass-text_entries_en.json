@@ -1,0 +1,26 @@
+[
+  {
+    "value": "the temperature",
+    "synonyms": [
+      "the temperature"
+    ]
+  },
+  {
+    "value": "a recipe",
+    "synonyms": [
+      "a recipe"
+    ]
+  },
+  {
+    "value": "for a cake recipe",
+    "synonyms": [
+      "for a cake recipe"
+    ]
+  },
+  {
+    "value": "find recipe for fakes",
+    "synonyms": [
+      "find recipe for fakes"
+    ]
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "value": "second name",
+    "synonyms": [
+      "second",
+      "second name"
+    ]
+  },
+  {
+    "value": "first name",
+    "synonyms": [
+      "forename",
+      "given",
+      "first name",
+      "first"
+    ]
+  },
+  {
+    "value": "last name",
+    "synonyms": [
+      "last",
+      "family name",
+      "surname"
+    ]
+  },
+  {
+    "value": "nickname",
+    "synonyms": [
+      "nickname"
+    ]
+  },
+  {
+    "value": "middle name",
+    "synonyms": [
+      "middle",
+      "middle name"
+    ]
+  },
+  {
+    "value": "name",
+    "synonyms": [
+      "name"
+    ]
+  },
+  {
+    "value": "full name",
+    "synonyms": [
+      "full name"
+    ]
+  }
+]
