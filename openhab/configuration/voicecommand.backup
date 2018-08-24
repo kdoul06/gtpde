@@ -1,0 +1,87 @@
+var curl_command00 = 'curl@@-s@@"https://api.dialogflow.com/v1/query?v=20170712&query=Hello!&lang=en&sessionId=2d4c8e7d-6b0a-47e2-83a9-5221ce8fe996&timezone=Europe/Athens"@@-H@@"Authorization:Bearer 6885bd8dc2c14761b973a9ae3f4cfc5c"'
+var curl_command01 = 'curl@@"https://api.dialogflow.com/v1/query?v=20170712&query=lights%20off&lang=en&sessionId=83f25660-b25c-4ead-9376-6fb683a5b0c7&timezone=Europe/Athens"@@-H@@"Authorization:Bearer 6885bd8dc2c14761b973a9ae3f4cfc5c"'
+
+var curl_cmd = "curl@@-s@@"
+var curl_http01 = "https://api.dialogflow.com/v1/query?v=20170712&query="
+//var String cmdContent
+//var String cmdContent01
+var curl_lang ="&lang=en&sessionId=2d4c8e7d-6b0a-47e2-83a9-5221ce8fe996&timezone=Europe/Athens"
+var curl_sw="@@-H@@"
+var curl_auth="Authorization:Bearer 6885bd8dc2c14761b973a9ae3f4cfc5c"
+var String curl_total
+
+var String curl_result
+var String to_say
+var String to_say_more
+var String source
+var String intentName
+var String room
+var String action
+var String item
+var Integer logging=1
+
+//import org.openhab.model.script.actions
+//import org.openhab.core.library.types
+//import java.util
+
+
+rule "voicecommand_backup"
+
+//when Item wemo_MZ100_Bridge_1_0_231450B010044D_94103EF6BF42D2BB_state received update
+		  
+when Item VoiceCommand received update
+
+//when Item voiceCommand received command
+
+then 
+    var String cmdContent
+	var String cmdContent01
+
+//cmdContent='lights on'
+//cmdContent='suck my dick'
+logInfo("*","voice start");
+logInfo("*","voice start");
+logInfo("*","voice start");
+logInfo("*","voice start");
+logInfo("*","voice start");
+logInfo("*","voice start");
+    cmdContent = VoiceCommand.state.toString.toLowerCase
+	cmdContent01=cmdContent.replaceAll(" ","%20")
+
+	if (logging==1) {
+		logInfo(" *** Voice received (SPACES will by replaced by %20)--> ",cmdContent);
+	} 
+			
+	curl_total = (curl_cmd + '"' + curl_http01 + cmdContent01 + curl_lang + '"' + curl_sw + '"' + curl_auth +'"').toString
+	curl_result = executeCommandLine(curl_total,10000)
+
+//	if (transform("JSONPATH", "$.result.action", curl_result).toString!="input.unknown") {
+	
+	source=transform("JSONPATH", "$.result.source", curl_result).toString
+	
+	switch source {
+		case "agent": {
+			if (logging==1) { 		
+			logInfo("*","voice sendcommang to AgentJSON");					
+		     sendCommand(AgentJSON,curl_result);
+		     }
+		     
+			}	
+		case "domains": {
+			if (logging==1) {
+			logInfo("*** voice (domains) --> ", curl_result);
+			
+			}
+			to_say_more =transform("JSONPATH", "$.result.fulfillment.speech", curl_result).toString ;	
+			say(to_say_more);
+		}
+		
+			}
+	end
+	
+
+	
+//end	
+//curl "https://api.dialogflow.com/v1/query?v=20170712&query=Kostas&lang=en&sessionId=e083dbf0-a20b-40d7-9be3-cf1638afd6d2&timezone=Europe/Athens" -H "Authorization:Bearer 6885bd8dc2c14761b973a9ae3f4cfc5c"
+//var curl_command = 'curl "https://api.dialogflow.com/v1/query?v=20170712&query=Hello!&lang=en&sessionId=2d4c8e7d-6b0a-47e2-83a9-5221ce8fe996&timezone=Europe/Athens" -H "Authorization:Bearer 6885bd8dc2c14761b973a9ae3f4cfc5c"' 
+//curl,'https://api.dialogflow.com/v1/query?v=20170712&query=Kostas&lang=en&sessionId=e083dbf0-a20b-40d7-9be3-cf1638afd6d2&timezone=Europe/Athens',-H,'Authorization:Bearer 6885bd8dc2c14761b973a9ae3f4cfc5c'
