@@ -1,3 +1,4 @@
+<<<<<<< HEAD:openhab/configuration/presense.rules.off
 rule "Periodically check presence"
 when
     Time cron "0 */5 * * * ?"
@@ -38,3 +39,45 @@ then
                 }
         }
 end
+=======
+rule "Periodically check presence"
+when
+    Time cron "0 */5 * * * ?"
+then
+
+
+        if (Presence.state == ON)
+        {
+                if(gMobiles.members.filter(s | s.state == ON).size == 0) {
+                        logInfo("PresenceCheck", "No phone within reach, checking for flapping")
+                        if(gMobiles.members.filter(s | s.changedSince(now.minusMinutes(5))).size == 0) {
+                                logInfo("PresenceCheck", "Nobody is at home")
+                                sendCommand(Presence, OFF)
+                        }
+                }
+        }
+        else
+        {
+                //For initialisation. If Presence is undefined or off, although it should be on.
+                if(gMobiles.members.filter(s | s.state == ON).size > 0) {
+                        sendCommand(Presence, ON)
+                }
+                else if (Presence.state == UNDEF ) {
+                        sendCommand(Presence, OFF)
+                }
+        }
+
+end
+
+rule "Coming home"
+when
+        Item gMobiles changed
+then
+        if (Presence.state != ON) {
+                if(gMobiles.members.filter (s | s.state == ON).size > 0) {
+                        logInfo("********************PresenceCheck", "Somebody is home")
+                        sendCommand(Presence, ON)
+                }
+        }
+end
+>>>>>>> 4fa578ff88d3c759e7d525c3e7029389b068572a:openhab/configuration/presense.rules.off
