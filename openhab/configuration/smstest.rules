@@ -1,0 +1,21 @@
+<<<<<<< HEAD:openhab/configuration/smstest.rules
+rule "test"
+when
+	Item TEST_Trigger changed from OFF to ON
+then
+	logInfo("test","Test rule triggered")
+	sms_text.postUpdate("some text")
+	sms_recipient.postUpdate("some recipient")
+	callScript("sendsms")
+end
+=======
+rule "test"
+when
+	Item TEST_Trigger changed from OFF to ON
+then
+	logInfo("test","Test rule triggered")
+	sms_text.postUpdate("some text")
+	sms_recipient.postUpdate("some recipient")
+	callScript("sendsms")
+end
+>>>>>>> 4fa578ff88d3c759e7d525c3e7029389b068572a:openhab/configuration/smstest.rules
