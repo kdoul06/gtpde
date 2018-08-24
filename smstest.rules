@@ -1,0 +1,9 @@
+rule "test"
+when
+	Item TEST_Trigger changed from OFF to ON
+then
+	logInfo("test","Test rule triggered")
+	sms_text.postUpdate("some text")
+	sms_recipient.postUpdate("some recipient")
+	callScript("sendsms")
+end
