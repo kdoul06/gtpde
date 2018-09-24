@@ -1,0 +1,717 @@
+{
+    "kdoulPanel": {
+        "updatedTime": "2018-09-24T00:25:14.734Z",
+        "dashboards": [
+            {
+                "id": "eap gtp",
+                "name": "Home",
+                "widgets": [
+                    {
+                        "name": "Kostas",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "PresenceKostas",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Presence Timeline Widget",
+                        "sizeX": 3,
+                        "sizeY": 2,
+                        "item": null,
+                        "type": "timeline",
+                        "row": 0,
+                        "col": 1,
+                        "period": "h",
+                        "colorMaps": [
+                            {
+                                "state": "ON",
+                                "color": "#0db9f0"
+                            },
+                            {
+                                "state": "OFF",
+                                "color": "#89a"
+                            },
+                            {
+                                "state": "OPEN",
+                                "color": "#CCCC00"
+                            },
+                            {
+                                "state": "CLOSED",
+                                "color": "#CC99FF"
+                            },
+                            {
+                                "state": "UP",
+                                "color": "#FFCC66"
+                            },
+                            {
+                                "state": "DOWN",
+                                "color": "#9999FF"
+                            },
+                            {
+                                "state": "0",
+                                "color": "#FFF"
+                            },
+                            {
+                                "state": "1",
+                                "color": "#FFCCCC"
+                            },
+                            {
+                                "state": "2",
+                                "color": "#FF9999"
+                            },
+                            {
+                                "state": "3",
+                                "color": "#FF6666"
+                            },
+                            {
+                                "state": "4",
+                                "color": "#CC0000"
+                            },
+                            {
+                                "state": "5",
+                                "color": "#993333"
+                            }
+                        ],
+                        "series": [
+                            {
+                                "item": "PresenceKostas",
+                                "name": "Kostas"
+                            },
+                            {
+                                "item": "PresencePoppy",
+                                "name": "Poppy"
+                            },
+                            {
+                                "item": "PresenceAndreas",
+                                "name": "Andreas"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Poppy",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "PresencePoppy",
+                        "type": "switch",
+                        "row": 1,
+                        "col": 0
+                    },
+                    {
+                        "name": "Andreas",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "PresenceAndreas",
+                        "type": "switch",
+                        "row": 2,
+                        "col": 0
+                    },
+                    {
+                        "name": "Office",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 0,
+                        "col": 10,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "office",
+                        "backdrop_iconset": "eclipse-smarthome-classic",
+                        "backdrop_icon": "office"
+                    },
+                    {
+                        "name": "Living room",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 1,
+                        "col": 10,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Living room",
+                        "backdrop_iconset": "eclipse-smarthome-classic",
+                        "backdrop_icon": "sofa"
+                    },
+                    {
+                        "name": "Andreas bedroom",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 0,
+                        "col": 8,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Andreas bedroom"
+                    },
+                    {
+                        "name": "Alexandras bedroom",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 1,
+                        "col": 8,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Alexandras bedroom"
+                    },
+                    {
+                        "name": "Kitchen",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 2,
+                        "col": 10,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Kitchen",
+                        "backdrop_iconset": "eclipse-smarthome-classic",
+                        "backdrop_icon": "cinema"
+                    },
+                    {
+                        "name": "all Lights",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "gLight",
+                        "type": "switch",
+                        "row": 2,
+                        "col": 3
+                    },
+                    {
+                        "name": "all Windows",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "gWindow",
+                        "type": "dummy",
+                        "row": 1,
+                        "col": 4,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Home Inhabited",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "gPresence",
+                        "type": "dummy",
+                        "row": 0,
+                        "col": 4,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "all Doors",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "gDoor",
+                        "type": "dummy",
+                        "row": 2,
+                        "col": 4,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Garrage",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 3,
+                        "col": 10,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Garrage",
+                        "backdrop_iconset": "eclipse-smarthome-classic",
+                        "backdrop_icon": "rollershutter"
+                    },
+                    {
+                        "name": "Main Door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_MainDoor",
+                        "type": "button",
+                        "row": 2,
+                        "col": 1,
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#669900",
+                        "background_active": "#FF0000"
+                    },
+                    {
+                        "name": "Garden",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 3,
+                        "col": 8,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Garden"
+                    },
+                    {
+                        "name": "all Doors Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "gAlarms",
+                        "type": "dummy",
+                        "row": 2,
+                        "col": 5,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "all Windows Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "gWindowAlarms",
+                        "type": "dummy",
+                        "row": 1,
+                        "col": 5,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Main Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_MainDoor_Alarm",
+                        "type": "dummy",
+                        "row": 2,
+                        "col": 2,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Inhabited Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_Inhabited_Alarm",
+                        "type": "dummy",
+                        "row": 0,
+                        "col": 5,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Good Morning",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "button",
+                        "row": 3,
+                        "col": 0
+                    },
+                    {
+                        "name": "Good Night",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "button",
+                        "row": 3,
+                        "col": 1
+                    },
+                    {
+                        "name": "We are leaving",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "button",
+                        "row": 3,
+                        "col": 4
+                    },
+                    {
+                        "name": "We are back",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": null,
+                        "type": "button",
+                        "row": 3,
+                        "col": 5
+                    }
+                ],
+                "row": 0,
+                "col": 0,
+                "tile": {}
+            },
+            {
+                "id": "office",
+                "name": "office",
+                "widgets": [
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Window",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_OfficeWindow",
+                        "type": "button",
+                        "row": 0,
+                        "col": 4,
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#33CC33",
+                        "background_active": "#FF0000"
+                    },
+                    {
+                        "name": "Main Light",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_OfficeLight",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Window Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_OfficeWindow_Alarm",
+                        "type": "dummy",
+                        "row": 0,
+                        "col": 5,
+                        "useserverformat": true
+                    }
+                ],
+                "row": 0,
+                "col": 2,
+                "tile": {
+                    "background_image": "http://www.flickr.com/photos/supershoppertoo/2740826377"
+                },
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            },
+            {
+                "id": "Living room",
+                "name": "Living room",
+                "widgets": [
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Main Light",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_LivingLight",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    }
+                ],
+                "row": 1,
+                "col": 1,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            },
+            {
+                "id": "Kitchen",
+                "name": "Kitchen",
+                "widgets": [
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Main Light",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_KitchenLight",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    }
+                ],
+                "row": 0,
+                "col": 1,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            },
+            {
+                "id": "Andreas bedroom",
+                "name": "Andreas bedroom",
+                "widgets": [
+                    {
+                        "name": "Andreas Window",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasWindow",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#33CC33",
+                        "foreground": "#000000",
+                        "background_active": "#FF0000",
+                        "row": 1,
+                        "col": 4
+                    },
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 0,
+                        "col": 11,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp"
+                    },
+                    {
+                        "name": "andreas dimmer Widget",
+                        "sizeX": 3,
+                        "sizeY": 1,
+                        "item": "AndreasDimmer_items",
+                        "type": "slider",
+                        "floor": 0,
+                        "ceil": 100,
+                        "step": 1,
+                        "row": 1,
+                        "col": 0
+                    },
+                    {
+                        "name": "Main Led Lamp",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "AndreasLight_items",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Andreas Door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasDoor",
+                        "type": "button",
+                        "row": 0,
+                        "col": 4,
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#00CC00",
+                        "background_active": "#FF3300"
+                    },
+                    {
+                        "name": "Window Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasWindow_Alarm",
+                        "type": "dummy",
+                        "row": 1,
+                        "col": 5,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasDoor_Alarm",
+                        "type": "dummy",
+                        "row": 0,
+                        "col": 5,
+                        "useserverformat": true
+                    }
+                ],
+                "row": 1,
+                "col": 0,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            },
+            {
+                "id": "Alexandras bedroom",
+                "name": "Alexandras bedroom",
+                "widgets": [
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Main Light",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AlexaBedLight",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Balcony Door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AlexaBalcony_Door",
+                        "type": "button",
+                        "row": 0,
+                        "col": 3,
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#669900",
+                        "background_active": "#FF0000"
+                    },
+                    {
+                        "name": "Balcony Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AlexaBalcony_Alarm",
+                        "type": "dummy",
+                        "row": 0,
+                        "col": 4,
+                        "useserverformat": true
+                    }
+                ],
+                "row": 2,
+                "col": 0,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                },
+                "header": {}
+            },
+            {
+                "id": "Garrage",
+                "name": "Garrage",
+                "widgets": [
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Garrage door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GarrageDoor",
+                        "type": "button",
+                        "row": 0,
+                        "col": 3,
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#669900",
+                        "background_active": "#FF0000"
+                    },
+                    {
+                        "name": "Garrage Light 1",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GardenLight_1",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Garrage Light 2",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GarrageLight_2",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 1
+                    },
+                    {
+                        "name": "Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GarrageDoor_Alarm",
+                        "type": "dummy",
+                        "row": 0,
+                        "col": 4,
+                        "useserverformat": true
+                    }
+                ],
+                "row": 0,
+                "col": 3,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            },
+            {
+                "id": "Garden",
+                "name": "Garden",
+                "widgets": [
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Garden Light 1",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GardenLight_1",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Garden Light 2",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GardenLight_2",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 1
+                    },
+                    {
+                        "name": "Garden Light 3",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GardenLight_3",
+                        "type": "switch",
+                        "row": 0,
+                        "col": 2
+                    }
+                ],
+                "row": 1,
+                "col": 3,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            }
+        ],
+        "menucolumns": 6,
+        "settings": {
+            "theme": "default",
+            "show_header_clock": false
+        },
+        "customwidgets": {}
+    }
+}
