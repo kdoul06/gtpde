@@ -1,6 +1,6 @@
 {
     "kdoulPanel": {
-        "updatedTime": "2018-09-24T00:25:14.734Z",
+        "updatedTime": "2018-09-24T01:55:16.174Z",
         "dashboards": [
             {
                 "id": "eap gtp",
@@ -282,42 +282,68 @@
                         "name": "Good Morning",
                         "sizeX": 1,
                         "sizeY": 1,
-                        "item": null,
+                        "item": "SceneSelect",
                         "type": "button",
                         "row": 3,
-                        "col": 0
+                        "col": 0,
+                        "command": "1"
                     },
                     {
                         "name": "Good Night",
                         "sizeX": 1,
                         "sizeY": 1,
-                        "item": null,
+                        "item": "SceneSelect",
                         "type": "button",
                         "row": 3,
-                        "col": 1
+                        "col": 1,
+                        "command": "2"
                     },
                     {
                         "name": "We are leaving",
                         "sizeX": 1,
                         "sizeY": 1,
-                        "item": null,
+                        "item": "SceneSelect",
                         "type": "button",
                         "row": 3,
-                        "col": 4
+                        "col": 4,
+                        "command": "3"
                     },
                     {
                         "name": "We are back",
                         "sizeX": 1,
                         "sizeY": 1,
-                        "item": null,
+                        "item": "SceneSelect",
                         "type": "button",
                         "row": 3,
-                        "col": 5
+                        "col": 5,
+                        "command": "4"
+                    },
+                    {
+                        "name": "Alarm Armed",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "item": "AlarmActivated",
+                        "type": "dummy",
+                        "row": 3,
+                        "col": 2,
+                        "useserverformat": true
+                    },
+                    {
+                        "name": "Alarm Zones",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "type": "button",
+                        "row": 0,
+                        "col": 6,
+                        "action_type": "navigate",
+                        "navigate_dashboard": "Alarm Zones"
                     }
                 ],
                 "row": 0,
                 "col": 0,
-                "tile": {}
+                "tile": {},
+                "drawer": {},
+                "header": {}
             },
             {
                 "id": "office",
@@ -700,6 +726,184 @@
                 ],
                 "row": 1,
                 "col": 3,
+                "tile": {},
+                "drawer": {
+                    "hide": true,
+                    "custom_widget_config": {}
+                }
+            },
+            {
+                "id": "Alarm Zones",
+                "name": "Alarm Zones",
+                "widgets": [
+                    {
+                        "name": "Andreas Door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasDoor",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#00CC00",
+                        "background_active": "#FF3300",
+                        "row": 0,
+                        "col": 0
+                    },
+                    {
+                        "name": "Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasDoor_Alarm",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 0,
+                        "col": 1
+                    },
+                    {
+                        "name": "Andreas Window",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasWindow",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#33CC33",
+                        "foreground": "#000000",
+                        "background_active": "#FF0000",
+                        "row": 1,
+                        "col": 0
+                    },
+                    {
+                        "name": "Window Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AndreasWindow_Alarm",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 1,
+                        "col": 1
+                    },
+                    {
+                        "name": "Home",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "type": "button",
+                        "action_type": "navigate",
+                        "navigate_dashboard": "eap gtp",
+                        "row": 0,
+                        "col": 11
+                    },
+                    {
+                        "name": "Alexandra Balcony Door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AlexaBalcony_Door",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#669900",
+                        "background_active": "#FF0000",
+                        "row": 2,
+                        "col": 0
+                    },
+                    {
+                        "name": "Balcony Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_AlexaBalcony_Alarm",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 2,
+                        "col": 1
+                    },
+                    {
+                        "name": "Office Window",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_OfficeWindow",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#33CC33",
+                        "background_active": "#FF0000",
+                        "row": 3,
+                        "col": 0
+                    },
+                    {
+                        "name": "Window Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_OfficeWindow_Alarm",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 3,
+                        "col": 1
+                    },
+                    {
+                        "name": "Garrage door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GarrageDoor",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#669900",
+                        "background_active": "#FF0000",
+                        "row": 1,
+                        "col": 4
+                    },
+                    {
+                        "name": "Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_GarrageDoor_Alarm",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 1,
+                        "col": 5
+                    },
+                    {
+                        "name": "Main Door",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_MainDoor",
+                        "type": "button",
+                        "action_type": "toggle",
+                        "command": "OPEN",
+                        "command_alt": "CLOSED",
+                        "background": "#669900",
+                        "background_active": "#FF0000",
+                        "row": 0,
+                        "col": 4
+                    },
+                    {
+                        "name": "Main Door Alarm",
+                        "sizeX": 1,
+                        "sizeY": 1,
+                        "item": "a_MainDoor_Alarm",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 0,
+                        "col": 5
+                    },
+                    {
+                        "name": "Alarm Armed",
+                        "sizeX": 2,
+                        "sizeY": 1,
+                        "item": "AlarmActivated",
+                        "type": "dummy",
+                        "useserverformat": true,
+                        "row": 0,
+                        "col": 6
+                    }
+                ],
+                "row": 0,
+                "col": 4,
                 "tile": {},
                 "drawer": {
                     "hide": true,
