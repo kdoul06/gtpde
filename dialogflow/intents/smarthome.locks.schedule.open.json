@@ -1,0 +1,83 @@
+{
+  "id": "87f723d1-3a02-4c50-adec-88d8ef4653ab",
+  "name": "smarthome.locks.schedule.open",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.locks.schedule.open",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ae6de178-c744-4785-9ca5-36fd3e107b71",
+          "dataType": "@lock",
+          "name": "lock",
+          "value": "$lock",
+          "prompts": [],
+          "defaultValue": "door",
+          "isList": true
+        },
+        {
+          "id": "13c213ff-9b79-410d-95a3-dc4efc0e46e7",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        },
+        {
+          "id": "1bd6e7c4-d6b3-4533-b833-64123083b363",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "f59827ca-93aa-4446-b47b-9d8aa58be6f0",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "61b53583-b333-4100-ae08-331a03d3a64f",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "f013d27f-4749-4d7c-8fe7-934f900ab35a",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562626,
+  "fallbackIntent": false,
+  "events": []
+}

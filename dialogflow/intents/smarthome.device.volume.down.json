@@ -1,0 +1,68 @@
+{
+  "id": "de953c6b-70dc-4b3c-8749-fdbf1eb44336",
+  "name": "smarthome.device.volume.down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.volume.down",
+      "affectedContexts": [
+        {
+          "name": "device-volume",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "034ee86f-694e-4ae5-9506-ae534c719b66",
+          "required": true,
+          "dataType": "@device-volume",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "3448f52b-0add-4951-8295-85f9ca9bf021",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "change-value",
+          "value": "$change-value",
+          "isList": false
+        },
+        {
+          "id": "8d1326d4-8562-4eed-af5a-10c1b5816205",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "c76e5b8a-1026-4d6f-9af7-3616924ed52c",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525830513,
+  "fallbackIntent": false,
+  "events": []
+}

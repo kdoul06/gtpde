@@ -1,0 +1,216 @@
+[
+  {
+    "id": "bdd67818-0f73-44a3-a7c9-ae76c54b1f42",
+    "data": [
+      {
+        "text": "is the ",
+        "userDefined": false
+      },
+      {
+        "text": "front door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      },
+      {
+        "text": " unlocked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c5cd2903-4511-494f-9f20-3028edd2336f",
+    "data": [
+      {
+        "text": "did I unlock the ",
+        "userDefined": false
+      },
+      {
+        "text": "front door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cec1dc5d-7fba-40d5-b705-5c523ff9da9b",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "doors",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      },
+      {
+        "text": " unlocked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5be8abf6-3fe6-4ccc-b9f0-aeafa4dd0b26",
+    "data": [
+      {
+        "text": "did I unlocked ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75695bae-3f13-405f-be59-2461669a7a1b",
+    "data": [
+      {
+        "text": "did I unlocked the ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "69deecd9-5515-48e8-8d0b-85dfaed89c07",
+    "data": [
+      {
+        "text": "are",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "doors",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      },
+      {
+        "text": " unlocked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "91edd86e-0c50-42ae-9757-2546e1288fd6",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " unlock",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c355c693-cf1c-4d85-a225-4186d770cbf2",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " unlocked",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

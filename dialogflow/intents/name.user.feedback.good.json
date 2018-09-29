@@ -1,0 +1,36 @@
+{
+  "id": "e55e0f1b-3dfd-4a16-9207-ffd4e9ea81ec",
+  "name": "name.user.feedback.good",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.feedback.good",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "497769b6-827e-40b4-b9f7-f1194ec0fd75",
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496995073677,
+  "fallbackIntent": false,
+  "events": []
+}

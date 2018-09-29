@@ -1,0 +1,845 @@
+[
+  {
+    "id": "2c946b44-d53e-44d4-bbff-07458a420f9d",
+    "data": [
+      {
+        "text": "turn",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "every day",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18f39b6d-3cf4-433a-8dc6-3d5eb7c2d215",
+    "data": [
+      {
+        "text": "temperature",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "up",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " degrees ",
+        "userDefined": false
+      },
+      {
+        "text": "when I come home",
+        "alias": "condition",
+        "meta": "@condition",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03037cdf-a684-4ab3-97ea-8f60c6ed2211",
+    "data": [
+      {
+        "text": "turn up the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "every day",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "88c76e85-64d2-427d-b912-fbcacc22a5ea",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up ",
+        "userDefined": false
+      },
+      {
+        "text": "every day",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48997959-88f4-48a0-a8b6-816766bc2178",
+    "data": [
+      {
+        "text": "temperature up to ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " degrees when I ",
+        "userDefined": false
+      },
+      {
+        "text": "leave",
+        "alias": "condition",
+        "meta": "@condition",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7918ce6-d6bd-4c8c-bfbc-ebf9dd73c550",
+    "data": [
+      {
+        "text": "temperature up by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " degrees when I ",
+        "userDefined": false
+      },
+      {
+        "text": "come",
+        "alias": "condition",
+        "meta": "@condition",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a3f8a8d4-6c27-4ffe-bf15-ced3b130833f",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up to ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " degrees on ",
+        "userDefined": false
+      },
+      {
+        "text": "Mondays",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2cd56d5-03b1-4ff3-a026-e284e098b927",
+    "data": [
+      {
+        "text": "turn up the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating by",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " degrees ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4dcad087-72fd-43b1-bee8-41ce194342cd",
+    "data": [
+      {
+        "text": "on ",
+        "userDefined": false
+      },
+      {
+        "text": "Tuesday",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": true
+      },
+      {
+        "text": " temperature up ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b2312828-8ab9-4455-bac1-be764f7fffb1",
+    "data": [
+      {
+        "text": "temperature up in ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " rooms ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow at 5 am",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "466e42b5-b2d4-4502-8157-b528407cda0d",
+    "data": [
+      {
+        "text": "turn up the heating ",
+        "userDefined": false
+      },
+      {
+        "text": "everyday",
+        "alias": "recurrence",
+        "meta": "@recurrence",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "123c8969-66bd-4548-a150-287c29e14a85",
+    "data": [
+      {
+        "text": "turn up the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 6 am",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b3f5102b-7e7a-4199-8f9a-add1cd25359b",
+    "data": [
+      {
+        "text": "turn up the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 6 am",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8b11453e-e96e-437c-9241-67a2d73a8ced",
+    "data": [
+      {
+        "text": "temperature up ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "70eea9d7-6a4b-4cfe-a4a5-a755c8565839",
+    "data": [
+      {
+        "text": "temperature up in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "240b40a4-b997-412c-aa84-d1d373229471",
+    "data": [
+      {
+        "text": "temperature up by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " degrees ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f65d4c4a-ef4f-4574-b1c1-dd7b0596f3ea",
+    "data": [
+      {
+        "text": "temperature up by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " degrees in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8c5eb763-c868-4f7f-8268-620ff3f510e8",
+    "data": [
+      {
+        "text": "temperature up to ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " degrees ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "888383ef-7f77-4504-af69-5fd32cc763da",
+    "data": [
+      {
+        "text": "temperature up to ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " degrees in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d724a079-da41-46f4-ae36-31a73abeee3f",
+    "data": [
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b93422b-9bd6-4e23-b678-4192008c02b4",
+    "data": [
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2a004078-744c-478e-9f17-6e8335a0f7aa",
+    "data": [
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e19b278-0f7f-4429-8b1e-36c12b560d77",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " higher by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b00af8fe-558e-44c3-a8b9-f5c3531a0b84",
+    "data": [
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up till ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59b91cce-877f-4f3b-ad69-53fd7be4dcab",
+    "data": [
+      {
+        "text": "heating",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " up till ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "at 5 pm",
+        "alias": "date-time",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

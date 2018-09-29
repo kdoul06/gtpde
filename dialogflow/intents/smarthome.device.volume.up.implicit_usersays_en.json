@@ -1,0 +1,58 @@
+[
+  {
+    "id": "805c1c74-ba09-4cb7-8fdc-4d9c5087a32b",
+    "data": [
+      {
+        "text": "TV",
+        "alias": "device-volume",
+        "meta": "@device-volume",
+        "userDefined": true
+      },
+      {
+        "text": " volume is too ",
+        "userDefined": false
+      },
+      {
+        "text": "low",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e0d5066c-e7f1-403d-b54e-186335ee68fa",
+    "data": [
+      {
+        "text": "TV",
+        "alias": "device-volume",
+        "meta": "@device-volume",
+        "userDefined": true
+      },
+      {
+        "text": " volume is too ",
+        "userDefined": false
+      },
+      {
+        "text": "low",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

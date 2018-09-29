@@ -1,0 +1,37 @@
+{
+  "id": "ca492990-ebbb-4e1f-8aa5-80c5a0a2ebee",
+  "name": "smarthome.presence.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "657eef28-3ec5-4094-b075-e17d3114b119",
+          "required": false,
+          "dataType": "@family",
+          "name": "family",
+          "value": "$family",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537718117,
+  "fallbackIntent": false,
+  "events": []
+}

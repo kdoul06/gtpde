@@ -1,0 +1,61 @@
+[
+  {
+    "value": "mother",
+    "synonyms": [
+      "mother",
+      "mum"
+    ]
+  },
+  {
+    "value": "father",
+    "synonyms": [
+      "father",
+      "dad"
+    ]
+  },
+  {
+    "value": "kid",
+    "synonyms": [
+      "kid",
+      "kids",
+      "children",
+      "childrens"
+    ]
+  },
+  {
+    "value": "sister",
+    "synonyms": [
+      "sister"
+    ]
+  },
+  {
+    "value": "brother",
+    "synonyms": [
+      "brother"
+    ]
+  },
+  {
+    "value": "wife",
+    "synonyms": [
+      "wife"
+    ]
+  },
+  {
+    "value": "husband",
+    "synonyms": [
+      "husband"
+    ]
+  },
+  {
+    "value": "Andreas",
+    "synonyms": [
+      "Andreas"
+    ]
+  },
+  {
+    "value": "Alexandra",
+    "synonyms": [
+      "Alexandra"
+    ]
+  }
+]

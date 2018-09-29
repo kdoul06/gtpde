@@ -1,0 +1,59 @@
+{
+  "id": "10432fd0-003e-4c0a-92fb-00f5438313a3",
+  "name": "smarthome.locks.check.unlock",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.locks.check.unlock",
+      "affectedContexts": [
+        {
+          "name": "unlock",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "lock",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2f36c005-bff7-409a-83e0-bcf96cef21a4",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "26aa2e26-f7ce-4110-94b4-b47af4c121b2",
+          "dataType": "@lock",
+          "name": "lock",
+          "value": "$lock"
+        },
+        {
+          "id": "9444aace-16f2-4688-9ac1-48c862522a56",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562547,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,1876 @@
+[
+  {
+    "id": "6cd324dd-7807-40de-8899-7e5d53bb06a5",
+    "data": [
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "yellow",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "down",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c74901d5-335b-4dac-b9bb-a1fa253c2dc5",
+    "data": [
+      {
+        "text": "dim the ",
+        "userDefined": false
+      },
+      {
+        "text": "table lamp",
+        "alias": "device",
+        "meta": "@lights",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "f91a6fa2-1afc-4326-a697-2df0e80af277",
+    "data": [
+      {
+        "text": "lower",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " the brightness of ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "97925b47-9596-4960-b262-13036a1fddd1",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " brightness down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f91d47e6-b34f-469e-9355-96c8ea13dae2",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " lower for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3c6a078d-9d33-4424-86c5-f8aab20a9f4b",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bba13dde-d3da-45b3-88b3-5e310c6c3adb",
+    "data": [
+      {
+        "text": "darken ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " till ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "34bafc5d-f7f6-4646-b1e9-e718a5fc0d68",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " lower for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bfb1b7ee-3899-4029-a91b-d92757759ad4",
+    "data": [
+      {
+        "text": "dim the ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "07d7688e-5adb-4eea-8143-c282458f4a14",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "59a074fc-7f24-4f79-8185-a29a7f0f27a8",
+    "data": [
+      {
+        "text": "can you please make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " darker till ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b4d32825-9b2a-4d91-9091-3703ca29c060",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "38bc5e67-e34a-433c-a73a-7c2ad654ab42",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " level lower by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db5ab848-a555-4d9b-be4a-31ded9339483",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " level down till ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b2a858de-d5fa-49b5-ba52-c42eb339fd33",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " brightness down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "600d431b-7143-4279-88f0-77edaf422ae7",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights until",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6c0e72ad-d4d9-44cf-8364-4001f04cd00d",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker till ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "df1197be-f0c7-4598-987f-c0f84858c4e0",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c1deda7f-eab3-40f1-98b6-8d3c15e41121",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "level",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " down till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1cca1e50-e225-4428-9aff-5c2d1279f17c",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights until",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d172d81c-8ab4-4ee7-817e-71e4087e46f8",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " until ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b349f319-51a9-4b77-a59c-43806bba5741",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percent",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "73acb5c1-72b8-4cef-9d35-ea26c8bdff6a",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker until ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ef7b59a8-0352-49e0-b3b4-a3b6cb4725d2",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " brightness till ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9a0acc52-2bc3-429d-a7e3-43a9ec0a10c9",
+    "data": [
+      {
+        "text": "turn down the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9f28f515-89f4-4c0c-b868-a2524fd2ef22",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker to ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "270bb1f8-e859-4882-b40c-8dc2fd596bfa",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " brightness down till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6e9f2038-0d0c-4024-951b-19784999563f",
+    "data": [
+      {
+        "text": "lower",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " brightness for ",
+        "userDefined": false
+      },
+      {
+        "text": "green",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de2b89c9-db6c-4826-aac1-a61f644a9eb4",
+    "data": [
+      {
+        "text": "dim the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "28a26758-c4f6-4950-aa59-9a014fcabf66",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " level lower by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "569b53ad-3c69-4461-8933-4b2435ebc3b9",
+    "data": [
+      {
+        "text": "lower ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " saturation to ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "16ce775f-a447-4af2-8830-97370a38abc8",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " brightness down for ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents in the ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5f855bd-ed28-4fe7-b255-d2897bd10867",
+    "data": [
+      {
+        "text": "dim ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "8b5d02b4-9ead-4c77-8752-e022dbf0e528",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " until ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "587fc791-1729-4c7e-abcd-7b8609fadbbe",
+    "data": [
+      {
+        "text": "darken ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " till ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa04cef1-a261-476f-b931-8feb09b95320",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " down till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "42b34c28-9adc-4fae-b2cc-21c6de10a979",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker to ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e48639a5-62d4-4072-a69b-2d6715628e61",
+    "data": [
+      {
+        "text": "a little less ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bd5e0982-7320-477e-8ab9-ab8f128b9bc6",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker till ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ebd6abc-486b-4c2f-8abd-50cda2bca4e7",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " brightness down till ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3bf4f6ee-d367-43de-aca1-b82149d0bbf7",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed6eb217-7e1c-4071-a220-e52e808ed76b",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker until ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9bcf5cbe-669e-4623-ae2e-cd643a3c1947",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "253a3850-cfe2-45dd-9283-50d5a1aaee7f",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b5aa8005-7993-4033-ad56-8807e3367100",
+    "data": [
+      {
+        "text": "less ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5643ad10-d5cc-43e7-8c30-b14a40758b13",
+    "data": [
+      {
+        "text": "brightness down by ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eacc03ed-0e10-4616-9d9d-fc2568a261bf",
+    "data": [
+      {
+        "text": "dim ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2634b3a8-0f27-498e-a6fa-5164045aba94",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c0e7bd6-50e3-4734-b39e-d8161767405c",
+    "data": [
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "88852899-07bb-4056-8231-15c8e1c9a4ae",
+    "data": [
+      {
+        "text": "down ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cb3fb43c-4f48-4872-85a1-8fbec8e300fd",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " level down till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da47b1e6-9304-4b72-9f29-34ba6ef5111d",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " darker",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0bd9b9ed-527b-4e25-a5ff-a0a5d3cc1703",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " down for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ada8a32-4c92-48fe-b73e-e83391f548fb",
+    "data": [
+      {
+        "text": "darken ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "40",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f0c8bc4e-71bd-43e4-9b65-858c8f8b03a0",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " brightness down by ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2c8e4276-1d0d-479c-9d3d-6bb991828343",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8318b3a7-bc4e-4a76-8450-7cc131d152fd",
+    "data": [
+      {
+        "text": "dim the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e32f1467-b4a1-4960-8063-45dcba227784",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "073cff53-7039-4e1c-8dd2-1f6a5dbfc911",
+    "data": [
+      {
+        "text": "little bit less ",
+        "userDefined": false
+      },
+      {
+        "text": "light",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "a08f94d7-f83e-44dc-8e39-213abd66b130",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " brightness up to ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents in the ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "58d48a70-e4b2-4786-9665-62cc0d7dc894",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " brightness by ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c09fa34f-df6f-421c-8e22-1bb8751b36e6",
+    "data": [
+      {
+        "text": "lower",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " the brightness of the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5ccabdf-406e-472d-b5e0-501962667457",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c737138b-41ef-4b84-b6ef-553601191373",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " less",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "345df61d-ef66-45c1-833e-76a3fac14dd9",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " level down till ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77e2184e-f238-41d4-a214-99fde1ba87e8",
+    "data": [
+      {
+        "text": "brightness down  till ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

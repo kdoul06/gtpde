@@ -1,0 +1,44 @@
+{
+  "id": "ad007a4d-8916-49a2-bef4-75f5218c031e",
+  "name": "smarthome.heating.switch.on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.switch.on",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fb90a7e4-3356-4829-9f55-87d534335ef7",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "07de72be-921a-4823-9046-5fbeb89d706f",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562128,
+  "fallbackIntent": false,
+  "events": []
+}

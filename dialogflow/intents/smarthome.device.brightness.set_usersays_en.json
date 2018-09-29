@@ -1,0 +1,456 @@
+[
+  {
+    "id": "8337b11a-de3a-4770-8c26-99d79f77ec85",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "decorations",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " level to ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dedf15e7-00bd-4968-9c7e-c6cd892066a5",
+    "data": [
+      {
+        "text": "make ",
+        "userDefined": false
+      },
+      {
+        "text": "decorations",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " shine ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3cc7cdfa-96de-4667-9e0d-78ba16a449e7",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92406835-0f00-48fb-8e5c-0177e3dc04c8",
+    "data": [
+      {
+        "text": "set brightness for ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "ba51d6d6-d564-4340-9d4e-1c83803dbc3a",
+    "data": [
+      {
+        "text": "set brightness ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf67dde4-44a0-40cd-854d-214847b2de6a",
+    "data": [
+      {
+        "text": "set brightness in ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "35daa793-a7d3-4444-ad3c-dece1dccdb15",
+    "data": [
+      {
+        "text": "set brightness to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60c4bf2f-e7c9-4f7c-b9e8-bd1bf179ac10",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " brightness to ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c75fe559-ec9d-4975-b59e-c96fe47d0fb2",
+    "data": [
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " of the ",
+        "userDefined": false
+      },
+      {
+        "text": "computers",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ccfda07d-5443-4b53-9197-8de925c16ca8",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc46cb02-ac61-4eb1-b86a-5280d3fc7b3d",
+    "data": [
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0ddd5a9a-3a0e-48f7-ab58-4211c2bccb86",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "computers",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " brightness ",
+        "userDefined": false
+      },
+      {
+        "text": "level",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fdd483c8-906f-4f37-816f-70db156011e4",
+    "data": [
+      {
+        "text": "set the ",
+        "userDefined": false
+      },
+      {
+        "text": "level",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "decorations",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "53c68945-1bcb-4e8d-aa47-1e82db672edb",
+    "data": [
+      {
+        "text": "set brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "14ce09c3-52d6-4039-8488-8f6c40356cca",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " level to ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "b3d5c2e4-2820-4e1b-bff8-ee6dc6512e9e",
+    "data": [
+      {
+        "text": "turn on ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " brightness",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "0682b3d4-df4d-49a3-a8ab-0e4c21814fc2",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "decorations",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " shine ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e2cc906c-3643-47ef-9d43-a52c0eee99fa",
+    "data": [
+      {
+        "text": "turn brightness to ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

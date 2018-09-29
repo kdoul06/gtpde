@@ -1,0 +1,321 @@
+[
+  {
+    "id": "f0d4a5f3-5217-4e2f-b0f9-b9c4cfa76e07",
+    "data": [
+      {
+        "text": "set hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b9271016-6d0d-4e9b-bf25-117ea50aec1d",
+    "data": [
+      {
+        "text": "set hue to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eba2ab2c-96a7-4054-a9c4-bbc38ec01f59",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "device",
+        "meta": "@lights",
+        "userDefined": true
+      },
+      {
+        "text": " hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "60f76a4d-9c5a-408a-a576-580369499ba4",
+    "data": [
+      {
+        "text": "set hue for ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "device",
+        "meta": "@lights",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c185a954-c851-419a-8663-8193c24932a2",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "red",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": true
+      },
+      {
+        "text": " hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "84d7363a-03c0-483b-9c37-f93ad1dd42ea",
+    "data": [
+      {
+        "text": "red",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": true
+      },
+      {
+        "text": " hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d63721e6-69b6-47c4-8de3-17b852ae588f",
+    "data": [
+      {
+        "text": "set hue in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d62358ab-b3c5-403f-8f2f-5f3adab58505",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9d8bed56-bf53-41f9-9406-e637738ca48f",
+    "data": [
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "8cdcf09a-5637-4095-b34c-a5a99fb99e87",
+    "data": [
+      {
+        "text": "set hue ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d5f138cf-0e1e-4c93-9bd7-bdcfc06ab3dd",
+    "data": [
+      {
+        "text": "set hue in ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "475e9d61-0143-40a4-a977-3c9bd0127c4d",
+    "data": [
+      {
+        "text": "hue till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a4bbe9f5-d505-49e5-a7ec-0ab679408b07",
+    "data": [
+      {
+        "text": "hue",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ae43f611-1a60-4aa5-b621-153af0ac5e06",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "on",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " hue till ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c00c0b68-76d7-486c-9c52-defd51c68415",
+    "data": [
+      {
+        "text": "set ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "alias": "device",
+        "meta": "@lights",
+        "userDefined": false
+      },
+      {
+        "text": " hue ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff0917a2-4b41-454e-bbcc-dea04338a3f1",
+    "data": [
+      {
+        "text": "set hue to ",
+        "userDefined": false
+      },
+      {
+        "text": "green",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

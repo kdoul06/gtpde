@@ -1,0 +1,102 @@
+[
+  {
+    "id": "a5d673d6-6c59-4453-8689-2c14732d121e",
+    "data": [
+      {
+        "text": "I want you to check if the ",
+        "userDefined": false
+      },
+      {
+        "text": "decorations",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      },
+      {
+        "text": " are bright enough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6dc68e2a-0b07-4546-aeac-5d13e784d41f",
+    "data": [
+      {
+        "text": "are the ",
+        "userDefined": false
+      },
+      {
+        "text": "decorations",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " bright enough ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "27967dae-c718-42fe-ae16-0e8c91280404",
+    "data": [
+      {
+        "text": "is my ",
+        "userDefined": false
+      },
+      {
+        "text": "computer",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " screen too dark",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "23784aee-9c58-405c-8bf7-06a5d6fbc9b8",
+    "data": [
+      {
+        "text": "is the ",
+        "userDefined": false
+      },
+      {
+        "text": "TV",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      },
+      {
+        "text": " dark in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

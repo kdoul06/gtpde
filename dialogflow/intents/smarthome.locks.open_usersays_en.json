@@ -1,0 +1,396 @@
+[
+  {
+    "id": "5bde0070-75ea-4dcf-9842-4d5873fb3304",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bathroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "0aad9d48-f81a-4266-abe1-8efeb606f46f",
+    "data": [
+      {
+        "text": "open the ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "33a8acf3-3002-4c5d-b88b-49226055a79a",
+    "data": [
+      {
+        "text": "open ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "windows",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "29f3a211-a7f1-455c-8d81-4801a0ae2698",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "window",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "33bd1a2d-4379-4bc0-a84b-f3e71c299773",
+    "data": [
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "doors",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      },
+      {
+        "text": " should be open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "364c5627-09dd-4497-9d06-c735e7c60c66",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bathroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "12a62faf-e146-419b-a6f2-6c2d7a0243da",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "doors",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "c741c4f7-37a2-415f-87d6-2dbe89427586",
+    "data": [
+      {
+        "text": "open the ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "d8bf8124-942d-46c5-a45d-e763f5ecf2e9",
+    "data": [
+      {
+        "text": "locks",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "ec41097b-bdad-4f1a-beb4-dba1a1d6420e",
+    "data": [
+      {
+        "text": "open ",
+        "userDefined": false
+      },
+      {
+        "text": "garage",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "6f6568c5-eb47-4271-baf8-88b6fc9572d1",
+    "data": [
+      {
+        "text": "open the ",
+        "userDefined": false
+      },
+      {
+        "text": "window",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "173e633f-2c57-48b0-bc3d-faf376a8f8be",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " the ",
+        "userDefined": false
+      },
+      {
+        "text": "front door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "44735b99-5344-4869-84fa-2e64a5b8d6e2",
+    "data": [
+      {
+        "text": "open ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      },
+      {
+        "text": " in my ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "399a2360-1b4a-432f-b621-19ee0dbafd36",
+    "data": [
+      {
+        "text": "open ",
+        "userDefined": false
+      },
+      {
+        "text": "door",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  },
+  {
+    "id": "efbae2c8-68c9-4d42-917f-cbdcaab5553f",
+    "data": [
+      {
+        "text": "open",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "doors",
+        "alias": "lock",
+        "meta": "@lock",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1525828236
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "id": "86b5c1cc-da7a-4a72-ba01-3350541b1eff",
+  "name": "smarthome.heating.up.implicit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.up.implicit",
+      "affectedContexts": [
+        {
+          "name": "heating",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "36ed9166-19b9-44de-ab8d-b8304571d286",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "18912aee-61af-47e9-800f-d5c4f65e1c24",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am going to heat up $room"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531134117,
+  "fallbackIntent": false,
+  "events": []
+}

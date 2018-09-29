@@ -1,0 +1,689 @@
+[
+  {
+    "id": "62ea853d-98c0-4393-8281-a09dc8a944e9",
+    "data": [
+      {
+        "text": "hue down for ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "40c31d43-3a16-4c24-aadc-fea5cc439541",
+    "data": [
+      {
+        "text": "turn the ",
+        "userDefined": false
+      },
+      {
+        "text": "table lamp",
+        "alias": "device",
+        "meta": "@lights",
+        "userDefined": true
+      },
+      {
+        "text": " hue down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eece26c8-ec5c-4dd2-a7ea-49b9e1c91ba9",
+    "data": [
+      {
+        "text": "turn the hue down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0e80a5f2-3558-415d-8b40-e0622bf5e00f",
+    "data": [
+      {
+        "text": "hue down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a34d162f-bdd8-4c7d-b32f-408c788a4fb1",
+    "data": [
+      {
+        "text": "hue down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad73c667-3b24-4196-bfd8-7d40f0c11fd3",
+    "data": [
+      {
+        "text": "hue down ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3975a971-8f8f-43aa-90e2-ebb56d77bce1",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue down till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c36e29f6-5023-46fa-9a2f-fc48afab6074",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " hue down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0aace6fb-2096-49d4-a8b2-95344849add5",
+    "data": [
+      {
+        "text": "red",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue down till ",
+        "userDefined": false
+      },
+      {
+        "text": "23",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4ff2eede-5572-409a-b230-d348949c522a",
+    "data": [
+      {
+        "text": "turn ",
+        "userDefined": false
+      },
+      {
+        "text": "red",
+        "alias": "color",
+        "meta": "@color",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " down by ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " percents",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2cf5aa97-ee6e-4819-b29e-f583e9aa4770",
+    "data": [
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue down",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ebd0542c-a58d-4ae6-b4b7-b150985e9712",
+    "data": [
+      {
+        "text": "hue down to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5be2f558-c6e9-476a-93d8-109fa2d837ed",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue down to ",
+        "userDefined": false
+      },
+      {
+        "text": "50",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a41389d7-3946-4018-868d-1fb6b6d04a18",
+    "data": [
+      {
+        "text": "turn down hue by ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a0b669e-28da-4fa9-875c-ff9c5e37c763",
+    "data": [
+      {
+        "text": "turn down hue till ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1fc1941c-2c89-4358-aa21-dd494d2931d6",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue by ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a108e1ba-e731-4410-829f-7c9846d0bd95",
+    "data": [
+      {
+        "text": "turn down ",
+        "userDefined": false
+      },
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue till ",
+        "userDefined": false
+      },
+      {
+        "text": "10",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "64969190-482e-477a-ac25-80d645304181",
+    "data": [
+      {
+        "text": "hue down to ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a44b88ea-b772-4019-85f5-a86647d64b8c",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue down for ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fc12cdc1-b8a4-406d-ad64-bf316b560a79",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue up to ",
+        "userDefined": false
+      },
+      {
+        "text": "15",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " percents in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e250968d-db4c-4340-a37e-66a713bf2e2e",
+    "data": [
+      {
+        "text": "lights",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " hue down in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f338c855-3cdd-49d5-bf22-af6592dd4824",
+    "data": [
+      {
+        "text": "lower hue by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "afec71c1-cc6a-4c88-bcfe-91c34e3be364",
+    "data": [
+      {
+        "text": "hue down in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "da54a74e-fdab-45ca-96f5-a6b97f90456b",
+    "data": [
+      {
+        "text": "turn the hue down in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "616ad342-8b12-493e-9c66-45b4d8f48e6f",
+    "data": [
+      {
+        "text": "make hue lower by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "92b4e200-b15a-4b6a-ad7b-29b2e48625fb",
+    "data": [
+      {
+        "text": "make hue lower by ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "change-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "614b3139-bccb-492c-86ff-bcf869115849",
+    "data": [
+      {
+        "text": "turn hue down till ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5a76a3a5-ef69-4958-aad4-8b98848f1052",
+    "data": [
+      {
+        "text": "turn hue down till ",
+        "userDefined": false
+      },
+      {
+        "text": "5",
+        "alias": "final-value",
+        "meta": "@sys.number",
+        "userDefined": false
+      },
+      {
+        "text": " points in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

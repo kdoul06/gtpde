@@ -1,0 +1,44 @@
+{
+  "id": "ffc0f7d6-eba1-4495-9309-5955de5cd276",
+  "name": "smarthome.device.switch.check - context:room - comment:devices in room",
+  "auto": true,
+  "contexts": [
+    "room"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#room.intent_action",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "783a59e4-aa83-45a4-b99d-a65120fefce2",
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "5c8b760c-ea88-4a05-b872-b0d1e4abf7bc",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561715,
+  "fallbackIntent": false,
+  "events": []
+}

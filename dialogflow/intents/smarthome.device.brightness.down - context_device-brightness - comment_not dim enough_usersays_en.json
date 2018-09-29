@@ -1,0 +1,205 @@
+[
+  {
+    "id": "437382f1-5e41-431e-a31d-5020b45e3d5b",
+    "data": [
+      {
+        "text": "not dim enough",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "670ca414-7edd-4063-9711-5cd0bf43f97d",
+    "data": [
+      {
+        "text": "too ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "me",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "bedeced7-96b5-4f9f-997f-924f4f086932",
+    "data": [
+      {
+        "text": "less",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "55328353-6e21-46d1-8e29-08ab4ca60b9b",
+    "data": [
+      {
+        "text": "it",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s ",
+        "userDefined": false
+      },
+      {
+        "text": "really",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2ad62910-b27c-4c9b-b232-835117c11f6b",
+    "data": [
+      {
+        "text": "too ",
+        "userDefined": false
+      },
+      {
+        "text": "bright",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "here",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b236a010-9ec6-49db-b5a3-521bb6f23133",
+    "data": [
+      {
+        "text": "still bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "283e68d4-3559-4bc0-8217-e70e7719b4df",
+    "data": [
+      {
+        "text": "too bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "747db1c0-893c-4c70-9b00-af990f193784",
+    "data": [
+      {
+        "text": "a little less",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cf095ebc-3ef7-402c-997b-661aa0325ce5",
+    "data": [
+      {
+        "text": "still too bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "71714313-1622-47ba-b440-bffae0e2ffb1",
+    "data": [
+      {
+        "text": "it\u0027s too bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "20683acf-72a1-4e88-8471-5c0bcc9ba36e",
+    "data": [
+      {
+        "text": "it is bright",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0638ae0f-45fb-4289-9ec2-fcb660bd4b7f",
+    "data": [
+      {
+        "text": "it\u0027s really bright in here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "57573c57-92ad-4fc6-81ef-878844f64921",
+    "data": [
+      {
+        "text": "it is bright here",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

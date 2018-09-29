@@ -1,0 +1,91 @@
+{
+  "id": "64507074-2f53-4310-b363-8fa1a2e4180b",
+  "name": "smarthome.lights.switch.off",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.switch.off",
+      "affectedContexts": [
+        {
+          "name": "switch",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "check",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "0ef9f3c4-b2d0-43f2-9027-fd932109c8a7",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "549baaef-d734-4c15-950e-a13ae183c363",
+          "required": false,
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "a81f61dc-db3c-4444-9fbf-5239c5d6c3cb",
+          "required": false,
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        },
+        {
+          "id": "fbbc4e87-0f2b-4370-adae-3e079fd5fc04",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        },
+        {
+          "id": "0d43dd43-a395-429b-871a-ceeb63e49079",
+          "required": false,
+          "dataType": "@dev_action",
+          "name": "dev_action",
+          "value": "$dev_action",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537725045,
+  "fallbackIntent": false,
+  "events": []
+}

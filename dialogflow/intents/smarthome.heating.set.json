@@ -1,0 +1,72 @@
+{
+  "id": "3f3e9bb5-b91f-4562-bc00-658586aaa320",
+  "name": "smarthome.heating.set",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.set",
+      "affectedContexts": [
+        {
+          "name": "heating",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cfd3d057-4cb0-405a-857b-7e37ba2045c4",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How much?"
+            }
+          ]
+        },
+        {
+          "id": "ad27e2f3-89c5-44e9-ad0e-19713dc2de3e",
+          "dataType": "@heating",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "41886cfe-207a-494f-99aa-9759f7293350",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "c7ca5011-fa3b-4274-ad4a-503568d4e8bb",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562124,
+  "fallbackIntent": false,
+  "events": []
+}

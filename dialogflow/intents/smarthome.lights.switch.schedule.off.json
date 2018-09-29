@@ -1,0 +1,86 @@
+{
+  "id": "5fe79114-5c16-49c7-b9bb-17a49e9c212f",
+  "name": "smarthome.lights.switch.schedule.off",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.switch.schedule.off",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "66aa51cc-2fe4-4390-a9e3-9b3638ba6261",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        },
+        {
+          "id": "96adc253-b6b8-416c-bcd0-04f2965ebf2c",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "d625b610-963c-4293-a639-0dc3d5db2da7",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "0ab24586-f0a8-44ef-bc77-8bc14e8e3685",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        },
+        {
+          "id": "bfc4b01e-03f6-43d0-aced-d0dc4050a735",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "07700db0-a709-4ae3-aa93-545a9015c0c9",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        },
+        {
+          "id": "e4437e68-28be-452e-9016-04f809fec7c7",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562503,
+  "fallbackIntent": false,
+  "events": []
+}

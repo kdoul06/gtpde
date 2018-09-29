@@ -1,0 +1,38 @@
+[
+  {
+    "value": "good morning",
+    "synonyms": [
+      "good morning"
+    ]
+  },
+  {
+    "value": "Good night",
+    "synonyms": [
+      "Good night"
+    ]
+  },
+  {
+    "value": "we are leaving",
+    "synonyms": [
+      "we are leaving"
+    ]
+  },
+  {
+    "value": "we are back",
+    "synonyms": [
+      "we are back"
+    ]
+  },
+  {
+    "value": "I am leaving",
+    "synonyms": [
+      "I am leaving"
+    ]
+  },
+  {
+    "value": "I am back",
+    "synonyms": [
+      "I am back"
+    ]
+  }
+]

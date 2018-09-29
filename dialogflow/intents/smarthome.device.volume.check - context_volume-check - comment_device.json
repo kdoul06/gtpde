@@ -1,0 +1,38 @@
+{
+  "id": "f1e021a3-20d1-482e-b324-3f766e78ea4d",
+  "name": "smarthome.device.volume.check - context:volume-check - comment:device",
+  "auto": true,
+  "contexts": [
+    "volume-check"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.volume.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1d49337d-14b6-47e6-b875-5d08071ea333",
+          "dataType": "@device-volume",
+          "name": "device",
+          "value": "$device"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561833,
+  "fallbackIntent": false,
+  "events": []
+}

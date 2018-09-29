@@ -1,0 +1,66 @@
+{
+  "id": "90c4b100-86ba-4977-80a4-1b9ca135398b",
+  "name": "smarthome.lights.switch.check.on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.switch.check.on",
+      "affectedContexts": [
+        {
+          "name": "switch",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6858f95f-0b30-4ca9-a06a-e9a9111cbaab",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "a02454a8-60ac-4591-84cc-78110b007c8f",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        },
+        {
+          "id": "8f5ad551-b927-47d3-a35a-da147bb8c37e",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        },
+        {
+          "id": "e9e6b702-4fa1-4d7f-b25d-5d8cf803fe63",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562415,
+  "fallbackIntent": false,
+  "events": []
+}

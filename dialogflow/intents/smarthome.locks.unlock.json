@@ -1,0 +1,67 @@
+{
+  "id": "00d2292f-e9e8-4286-a957-21b8b8648819",
+  "name": "smarthome.locks.unlock",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.locks.unlock",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "06f895a7-2c00-4ba3-853a-e1bb4b795603",
+          "required": false,
+          "dataType": "@lock",
+          "name": "lock",
+          "value": "$lock",
+          "prompts": [],
+          "defaultValue": "door",
+          "isList": false
+        },
+        {
+          "id": "61115a19-cd7f-49b2-a489-d69aadb6a1af",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "6b324ca4-3715-4a42-bcb4-1ed9db632638",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1525831478,
+  "fallbackIntent": false,
+  "events": []
+}

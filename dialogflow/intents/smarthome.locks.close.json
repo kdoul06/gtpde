@@ -1,0 +1,85 @@
+{
+  "id": "46d58ee0-a1c6-45b7-8e7a-ca97631f05e6",
+  "name": "smarthome.locks.close",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.locks.close",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "close",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "75084de2-35e4-47ce-90ef-8b6fb36b7380",
+          "required": false,
+          "dataType": "@lock",
+          "name": "lock",
+          "value": "$lock",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "984ae7d1-cec3-4ae6-8a22-15b4462bd71a",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is the room?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "ce349f42-9273-4149-a023-6127c5802f54",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        },
+        {
+          "id": "dc271d8d-c7f4-4057-bd0d-d1613c91d4d8",
+          "dataType": "@dev_action",
+          "name": "dev_action",
+          "value": "$dev_action",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Closing $room $lock"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537110799,
+  "fallbackIntent": false,
+  "events": []
+}

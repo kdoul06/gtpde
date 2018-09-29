@@ -1,0 +1,22 @@
+[
+  {
+    "value": "open",
+    "synonyms": [
+      "open",
+      "turn on",
+      "switch on",
+      "more"
+    ]
+  },
+  {
+    "value": "close",
+    "synonyms": [
+      "close",
+      "turn off",
+      "off",
+      "turn down",
+      "switch off",
+      "less"
+    ]
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "id": "23d0e0bf-e251-403f-a23b-f5473e52f104",
+  "name": "smarthome.device.switch.schedule.on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.switch.schedule.on",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2524edcd-015a-463b-8281-1d12c660a247",
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "a8d5a6fc-cd0a-446e-9eb5-ae157cea1c5c",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        },
+        {
+          "id": "9627f1f8-a9b2-4277-a214-a80e2ccf34de",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "35b6f50f-c14f-4c57-8245-a192b2730795",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "ea237b02-84ee-4d04-be36-6d8e02ee06bb",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        },
+        {
+          "id": "635074a1-b4ea-432b-abee-33031faeb313",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561830,
+  "fallbackIntent": false,
+  "events": []
+}

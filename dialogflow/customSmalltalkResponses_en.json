@@ -1,0 +1,14 @@
+[
+  {
+    "action": "smalltalk.greetings.goodmorning",
+    "customAnswers": [
+      "How can I help you this morning?"
+    ]
+  },
+  {
+    "action": "smalltalk.greetings.goodnight",
+    "customAnswers": [
+      "Is there anything I can do?"
+    ]
+  }
+]

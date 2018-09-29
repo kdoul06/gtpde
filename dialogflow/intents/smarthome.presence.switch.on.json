@@ -1,0 +1,50 @@
+{
+  "id": "0778e439-a2c2-417c-94e0-269ba939dc23",
+  "name": "smarthome.presence.switch.on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "323f9b86-0935-4625-a6a4-c87abe0fb5da",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Identify yourself"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "26eee95d-79a9-4e02-b1ce-0f0fdb98d7b9",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537312869,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,60 @@
+{
+  "id": "88e2d64c-3036-4ad1-96b9-311818ef66f3",
+  "name": "smarthome.lights.hue.set",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.hue.set",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8def43c8-db73-4142-9f86-a5d9337ca927",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "439618ae-a5bf-4f31-b3fe-2d2008de9581",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        },
+        {
+          "id": "64487d82-497f-4746-90b7-69cb26358f58",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "29951637-c945-47c5-a70a-fd64ed01b5a9",
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value"
+        },
+        {
+          "id": "bea489dd-f41d-4caa-8525-3f545e3f44de",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562331,
+  "fallbackIntent": false,
+  "events": []
+}

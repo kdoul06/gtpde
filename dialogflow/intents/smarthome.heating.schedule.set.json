@@ -1,0 +1,85 @@
+{
+  "id": "c7e2ceb1-158e-427d-b168-d71fb414d305",
+  "name": "smarthome.heating.schedule.set",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.schedule.set",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1747ee74-a765-4e57-8b66-ace1860f53a5",
+          "dataType": "@heating",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "5d260292-e820-4b26-955f-857d27728e6e",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        },
+        {
+          "id": "9553660a-5180-42e2-93b4-1029be351a68",
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value"
+        },
+        {
+          "id": "22c45e6f-0447-4ba6-a31b-d5745fd66279",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "6491f7a4-56f0-4bb6-aac4-1c16c203557a",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "e40e70df-8b2f-45a0-821e-874dbc318223",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "e58bac1d-32e8-43ba-896c-0cb98b524bb4",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562074,
+  "fallbackIntent": false,
+  "events": []
+}

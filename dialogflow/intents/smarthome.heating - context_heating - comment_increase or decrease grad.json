@@ -1,0 +1,44 @@
+{
+  "id": "b6138288-4fe4-4c95-a5d6-e4a11115965d",
+  "name": "smarthome.heating - context:heating - comment:increase or decrease grad",
+  "auto": true,
+  "contexts": [
+    "heating"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.set",
+      "affectedContexts": [
+        {
+          "name": "heating",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ea96aaed-1110-45b3-a093-d8f6616d035b",
+          "dataType": "@sys.number",
+          "name": "change-value",
+          "value": "$change-value"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561961,
+  "fallbackIntent": false,
+  "events": []
+}

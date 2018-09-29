@@ -1,0 +1,67 @@
+{
+  "id": "3793f058-6247-4328-aa75-9d8e8ab933fe",
+  "name": "smarthome.lights.brightness.up.implicit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.brightness.up.implicit",
+      "affectedContexts": [
+        {
+          "name": "lights-brightness",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "61dac683-648c-428b-bb0c-c9a02e9bd25d",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "81a9ffce-748a-4766-bdad-60107874ec33",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "edfc27f7-630c-496b-b090-d99176ca82e2",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        },
+        {
+          "id": "243be9c7-09d6-44bf-b7db-7bd808d7aec7",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562274,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,48 @@
+{
+  "id": "85fd5bb0-b955-4cfd-9dae-a7bb2add9217",
+  "name": "smarthome.device.volume.unmute",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.volume.unmute",
+      "affectedContexts": [
+        {
+          "name": "device-volume",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "434c5652-c050-4986-b12c-2f34b16cd4f4",
+          "dataType": "@device-volume",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "0350e323-3b2d-4790-8767-bb1fbd9b1b01",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561931,
+  "fallbackIntent": false,
+  "events": []
+}

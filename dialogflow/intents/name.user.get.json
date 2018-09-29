@@ -1,0 +1,49 @@
+{
+  "id": "d7f7a7b0-2ef6-4368-8848-a6c4e89123ed",
+  "name": "name.user.get",
+  "auto": true,
+  "contexts": [
+    "name"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.get",
+      "affectedContexts": [
+        {
+          "name": "name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "51332113-e0c0-42e8-a350-4ea5d04fe947",
+          "required": false,
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Your name is #name.given-name",
+            "Your nickname is #name.nick-name"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531099354,
+  "fallbackIntent": false,
+  "events": []
+}

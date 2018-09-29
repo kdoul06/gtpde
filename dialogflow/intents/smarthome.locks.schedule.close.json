@@ -1,0 +1,83 @@
+{
+  "id": "28a4bd6d-4d30-42f3-8d52-ac8bbe08a8fd",
+  "name": "smarthome.locks.schedule.close",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.locks.schedule.close",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1d64ad2b-64da-453c-aea9-96a82a9f26ee",
+          "dataType": "@lock",
+          "name": "lock",
+          "value": "$lock",
+          "prompts": [],
+          "defaultValue": "door",
+          "isList": true
+        },
+        {
+          "id": "7eb5b263-17c9-4a9e-9488-d8c1952443ba",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "b3463e4c-95b5-43fa-88ff-a406bdffdb0d",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "0982199c-f953-4cb8-928d-416efd7fd6a0",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        },
+        {
+          "id": "6fbbf082-276b-4c58-94de-50177dac2eaf",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "1d26f1c6-164d-488d-9e7e-f2f5373c0b89",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562593,
+  "fallbackIntent": false,
+  "events": []
+}

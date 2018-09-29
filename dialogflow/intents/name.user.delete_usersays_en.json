@@ -1,0 +1,325 @@
+[
+  {
+    "id": "416116bb-b5b4-461e-998a-192dd9f10e1c",
+    "data": [
+      {
+        "text": "I am not ",
+        "userDefined": false
+      },
+      {
+        "text": "Sam",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "194ee44b-9087-4235-bf27-03fe804b7662",
+    "data": [
+      {
+        "text": "my name is not ",
+        "userDefined": false
+      },
+      {
+        "text": "Sam",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09d75e07-f9d9-42d9-86eb-729225715f5c",
+    "data": [
+      {
+        "text": "I\u0027d like you to erase my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c5463fe-9b43-4ace-9f63-0768177bc265",
+    "data": [
+      {
+        "text": "Maria",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " is not my name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c4af9c56-f070-484c-b3b2-e6c676c3f4c3",
+    "data": [
+      {
+        "text": "forget my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "773d8a7a-f226-4ea5-9a32-c34da67182fa",
+    "data": [
+      {
+        "text": "Squirrel",
+        "alias": "nick-name",
+        "meta": "@nick-name",
+        "userDefined": true
+      },
+      {
+        "text": " is not my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "139eb2dd-2d7f-4217-80ac-22f6d59922e4",
+    "data": [
+      {
+        "text": "you should forget my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3cdfd7eb-bdb9-4c03-8428-5f0835340792",
+    "data": [
+      {
+        "text": "you should forget my ",
+        "userDefined": false
+      },
+      {
+        "text": "middle name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4bf11fa7-ba6a-4648-862b-16f77b420d7b",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "last name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " is not ",
+        "userDefined": false
+      },
+      {
+        "text": "Green",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dc97b4fe-fa2d-46bf-801d-3179db9edb1d",
+    "data": [
+      {
+        "text": "can you delete my ",
+        "userDefined": false
+      },
+      {
+        "text": "surname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "75bd6373-62d5-4160-b9ea-c615c0b1de40",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "surname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " is not ",
+        "userDefined": false
+      },
+      {
+        "text": "Evans",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "88a478f2-de65-478d-aaec-dae1f40e31e2",
+    "data": [
+      {
+        "text": "don\u0027t call me ",
+        "userDefined": false
+      },
+      {
+        "text": "John",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "cda46a6d-7b70-4177-80a9-a47fbab465fc",
+    "data": [
+      {
+        "text": "I\u0027d like you to erase my name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "de9b218d-87b2-486b-8cff-19d2c9ad11b1",
+    "data": [
+      {
+        "text": "stop calling me ",
+        "userDefined": false
+      },
+      {
+        "text": "Nick",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "39c473d9-1523-44c6-970d-c1c97ab4ef44",
+    "data": [
+      {
+        "text": "I am not ",
+        "userDefined": false
+      },
+      {
+        "text": "Anna",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c8886c5b-d045-4d34-a9b1-63e22ae27bd3",
+    "data": [
+      {
+        "text": "can you delete my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ac4f22fb-2f4d-4c0d-b1ce-3e0c7bafea85",
+    "data": [
+      {
+        "text": "forget my ",
+        "userDefined": false
+      },
+      {
+        "text": "last name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "id": "df3dc365-445d-4e6d-b1e8-7a566188600b",
+  "name": "smarthome.heating.check.implicit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.check.implicit",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "170ddbd0-4b90-4fef-a1a1-e3b0b336a664",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        },
+        {
+          "id": "42331310-c94e-4523-891f-d06b8f1ef6ff",
+          "dataType": "@sys.time-period",
+          "name": "test_param",
+          "value": "$room"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531138585,
+  "fallbackIntent": false,
+  "events": []
+}

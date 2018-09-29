@@ -1,0 +1,51 @@
+{
+  "id": "f40d631d-8104-413f-acaa-52a26f68246c",
+  "name": "smarthome.device.brightness.up - context:device-brightness - comment:not bright enough",
+  "auto": true,
+  "contexts": [
+    "device-brightness"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.brightness.up",
+      "affectedContexts": [
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "device-brightness",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "29babadf-8017-4c58-bb53-dc37383f4472",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Increasing light in $room"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1536062731,
+  "fallbackIntent": false,
+  "events": []
+}

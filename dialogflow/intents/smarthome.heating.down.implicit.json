@@ -1,0 +1,57 @@
+{
+  "id": "9c60404d-d1c6-468e-ab54-9b8cff279720",
+  "name": "smarthome.heating.down.implicit",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.down.implicit",
+      "affectedContexts": [
+        {
+          "name": "heating",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ef176603-1af1-4a2c-906c-9144f2a7781f",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        },
+        {
+          "id": "911b2ea7-39cd-4c66-bc25-79d042c4942f",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Setting temperature down in $room"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1535715561,
+  "fallbackIntent": false,
+  "events": []
+}

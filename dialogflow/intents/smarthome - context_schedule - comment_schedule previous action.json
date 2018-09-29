@@ -1,0 +1,51 @@
+{
+  "id": "404fa6a8-6d3e-4ef0-930d-615b85792077",
+  "name": "smarthome - context:schedule - comment:schedule previous action",
+  "auto": true,
+  "contexts": [
+    "schedule"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#schedule.intent_action",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "45c3617b-dad4-4d09-b765-06bfb27bf315",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "faad9c3e-721e-4aac-a246-4a373441b87e",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562779,
+  "fallbackIntent": false,
+  "events": []
+}

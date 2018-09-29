@@ -1,0 +1,71 @@
+{
+  "id": "30459aab-cbe9-4881-abf6-f717947d6a8f",
+  "name": "smarthome.heating.switch.schedule.off",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.switch.schedule.off",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6ddbb651-549d-484f-8285-fbf99542eeb7",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition",
+          "isList": false
+        },
+        {
+          "id": "979896d4-9a4f-4202-a00b-fc5a71444d0d",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence",
+          "isList": false
+        },
+        {
+          "id": "c3c54704-ecf3-43f6-994b-6ed7c132f08d",
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "isList": false
+        },
+        {
+          "id": "713d34cc-c790-4bdb-8a46-6d3d5849c29b",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        },
+        {
+          "id": "5e1ac843-76da-4157-b5c5-ac007e64fddf",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562132,
+  "fallbackIntent": false,
+  "events": []
+}

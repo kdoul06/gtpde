@@ -1,0 +1,60 @@
+{
+  "id": "d59611b9-d542-4b6f-8ad7-9e0aa840ebae",
+  "name": "smarthome.lights.saturation.check",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.saturation.check",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3f3a233f-6efb-41c0-8f84-155c133aef02",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "ce272ef1-9baa-407b-8632-71fe270ae009",
+          "dataType": "@sys.number",
+          "name": "value",
+          "value": "$value"
+        },
+        {
+          "id": "cab64a11-56c9-467a-9d02-a24d3e7cf786",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        },
+        {
+          "id": "d4b4ea88-09ce-4b45-8018-3ed66c70a1fd",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        },
+        {
+          "id": "18b6f9f5-44eb-4b36-8436-18c46e9164f3",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562358,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,509 @@
+[
+  {
+    "id": "4f0d7f3b-c99c-44f5-8f33-86b810b5c0e4",
+    "data": [
+      {
+        "text": "remember that my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "Boss",
+        "alias": "nick-name",
+        "meta": "@nick-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1531099279
+  },
+  {
+    "id": "3916858f-bdaf-427c-a588-6e724ed91e4c",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "middle name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "Clara",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1531099279
+  },
+  {
+    "id": "c981b972-1a31-4a06-bec7-643ea9611b35",
+    "data": [
+      {
+        "text": "I\u0027m Mrs ",
+        "userDefined": false
+      },
+      {
+        "text": "Green",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "a3c4f0c5-68cc-4502-b11c-16d1e7d71500",
+    "data": [
+      {
+        "text": "my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Anna",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "3ca99c61-bfeb-49c9-a0d1-b338a40a2a49",
+    "data": [
+      {
+        "text": "remember my name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "5c7b2d00-b925-4659-8b44-c3c21c3a3474",
+    "data": [
+      {
+        "text": "can you remember my ",
+        "userDefined": false
+      },
+      {
+        "text": "middle name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "186264eb-3fe7-4f8b-b9ca-b46d2f121b95",
+    "data": [
+      {
+        "text": "I\u0027d like to be addressed as ",
+        "userDefined": false
+      },
+      {
+        "text": "Sam",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "f2bf4d41-a65e-4386-9dcc-5c828f0e6b0e",
+    "data": [
+      {
+        "text": "save my ",
+        "userDefined": false
+      },
+      {
+        "text": "name",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "ec25e2d9-2668-4f5f-80bd-8abfcb3634fb",
+    "data": [
+      {
+        "text": "Squirrel",
+        "alias": "nick-name",
+        "meta": "@nick-name",
+        "userDefined": true
+      },
+      {
+        "text": " is my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "840ca6bb-5feb-4ea5-8795-9cfd3c9db517",
+    "data": [
+      {
+        "text": "call me Mr ",
+        "userDefined": false
+      },
+      {
+        "text": "Davis",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "4e63d614-c355-4e7b-87ce-dee85d4c7baa",
+    "data": [
+      {
+        "text": "learn my name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1531099279
+  },
+  {
+    "id": "7d6b2af2-ccc8-458f-af0c-285890ab8049",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "Woo Woo",
+        "alias": "nick-name",
+        "meta": "@nick-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "48664938-9d87-464d-b40c-18c28640e361",
+    "data": [
+      {
+        "text": "call me ",
+        "userDefined": false
+      },
+      {
+        "text": "Tom",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "215e9dfa-8667-4cc9-a937-bac18f7b84f2",
+    "data": [
+      {
+        "text": "save my ",
+        "userDefined": false
+      },
+      {
+        "text": "middle name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " as ",
+        "userDefined": false
+      },
+      {
+        "text": "Samantha",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "6ae64285-441e-4a64-97aa-cd50e94ed78b",
+    "data": [
+      {
+        "text": "save my name as ",
+        "userDefined": false
+      },
+      {
+        "text": "Tom",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "f10b0a69-e346-42f3-b243-aea4c7f329e6",
+    "data": [
+      {
+        "text": "save my ",
+        "userDefined": false
+      },
+      {
+        "text": "last name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "c40a5f70-b7b9-4ef4-8f2b-bff1a5c7b6ac",
+    "data": [
+      {
+        "text": "how about you call me ",
+        "userDefined": false
+      },
+      {
+        "text": "Jessica",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "db298b55-16b3-47a6-835d-390a06ce3593",
+    "data": [
+      {
+        "text": "I want you to refer to me as ",
+        "userDefined": false
+      },
+      {
+        "text": "Cristina",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "6dd08468-6614-4f89-9ad1-a48a611c950a",
+    "data": [
+      {
+        "text": "my ",
+        "userDefined": false
+      },
+      {
+        "text": "last name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      },
+      {
+        "text": " is ",
+        "userDefined": false
+      },
+      {
+        "text": "Brown",
+        "alias": "last-name",
+        "meta": "@sys.last-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "b1dba2a1-8c52-46ce-8b73-148087774ea1",
+    "data": [
+      {
+        "text": "call me ",
+        "userDefined": false
+      },
+      {
+        "text": "John",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "5f82db97-6886-4c6c-9eea-3603b90a3dbd",
+    "data": [
+      {
+        "text": "remember that my name is ",
+        "userDefined": false
+      },
+      {
+        "text": "Nick",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "ddec821b-49a0-4b77-9c4f-201cd82ddc18",
+    "data": [
+      {
+        "text": "I\u0027m ",
+        "userDefined": false
+      },
+      {
+        "text": "Courtney",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "7ea40eae-2127-4b1b-add0-50dce19c3fb2",
+    "data": [
+      {
+        "text": "I\u0027d like to be addressed as ",
+        "userDefined": false
+      },
+      {
+        "text": "Captain",
+        "alias": "nick-name",
+        "meta": "@nick-name",
+        "userDefined": true
+      },
+      {
+        "text": " from now on",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "81b8c311-720e-4cc0-85e7-24fde9788a51",
+    "data": [
+      {
+        "text": "Paul",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": true
+      },
+      {
+        "text": " is my ",
+        "userDefined": false
+      },
+      {
+        "text": "middle name",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  },
+  {
+    "id": "741effef-092a-48b6-ab37-1a790e3065a7",
+    "data": [
+      {
+        "text": "you should learn my ",
+        "userDefined": false
+      },
+      {
+        "text": "nickname",
+        "alias": "type",
+        "meta": "@name-type",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1531099279
+  }
+]

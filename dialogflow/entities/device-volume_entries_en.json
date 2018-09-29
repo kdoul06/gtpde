@@ -1,0 +1,40 @@
+[
+  {
+    "value": "tv",
+    "synonyms": [
+      "tv",
+      "tv set",
+      "television"
+    ]
+  },
+  {
+    "value": "radio",
+    "synonyms": [
+      "radio"
+    ]
+  },
+  {
+    "value": "speakers",
+    "synonyms": [
+      "speakers"
+    ]
+  },
+  {
+    "value": "iPad",
+    "synonyms": [
+      "iPad"
+    ]
+  },
+  {
+    "value": "ipod",
+    "synonyms": [
+      "ipod"
+    ]
+  },
+  {
+    "value": "phone",
+    "synonyms": [
+      "phone"
+    ]
+  }
+]

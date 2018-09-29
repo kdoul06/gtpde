@@ -1,0 +1,103 @@
+{
+  "id": "e3acf680-4ebe-48c4-9e02-cc4c9bec5d37",
+  "name": "smarthome.lights.switch.on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.switch.on",
+      "affectedContexts": [
+        {
+          "name": "switch",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "color",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "check",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "brightness",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "7cfd7148-3b11-4439-9a34-a63a9af45200",
+          "required": false,
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color",
+          "isList": false
+        },
+        {
+          "id": "9339ee71-dae9-4174-aa2f-0bff518ae0e5",
+          "required": false,
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "7474e9ec-0022-4249-96ab-1f4f8156ac87",
+          "required": true,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "prompts": [],
+          "defaultValue": "",
+          "isList": false
+        },
+        {
+          "id": "d88a2b83-0a5b-461a-a622-ecd9a8a47a0b",
+          "required": false,
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        },
+        {
+          "id": "bd96fc62-cdf0-4bc6-83ed-ecfa971844ae",
+          "required": false,
+          "dataType": "@dev_action",
+          "name": "dev_action",
+          "value": "$dev_action",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I am going to #switch the $device in $room"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1535714771,
+  "fallbackIntent": false,
+  "events": []
+}

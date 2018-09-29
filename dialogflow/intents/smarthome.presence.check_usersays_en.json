@@ -1,0 +1,154 @@
+[
+  {
+    "id": "47442f7e-8c38-4aa0-97f4-0184ad9663e8",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "Alexandra",
+        "alias": "family",
+        "meta": "@family",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537718117
+  },
+  {
+    "id": "e956df1c-cf99-4269-b7be-8794015898cb",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "Andreas",
+        "alias": "family",
+        "meta": "@family",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537718117
+  },
+  {
+    "id": "06d1242c-68a4-43a9-8539-6ed7abb95ec9",
+    "data": [
+      {
+        "text": "is my ",
+        "userDefined": false
+      },
+      {
+        "text": "wife",
+        "alias": "family",
+        "meta": "@family",
+        "userDefined": false
+      },
+      {
+        "text": " at home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 2,
+    "updated": 0
+  },
+  {
+    "id": "d531145c-5db2-4a83-a312-24dcf3629acc",
+    "data": [
+      {
+        "text": "who is at home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536553202
+  },
+  {
+    "id": "fee488c1-c6f3-4e50-8b01-60aaf6f93e12",
+    "data": [
+      {
+        "text": "is my ",
+        "userDefined": false
+      },
+      {
+        "text": "wife",
+        "alias": "family",
+        "meta": "@family",
+        "userDefined": true
+      },
+      {
+        "text": " home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536551599
+  },
+  {
+    "id": "7bcef051-6313-4746-a72f-84347cd5d3c4",
+    "data": [
+      {
+        "text": "have ",
+        "userDefined": false
+      },
+      {
+        "text": "kids",
+        "alias": "family",
+        "meta": "@family",
+        "userDefined": true
+      },
+      {
+        "text": " got home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536551599
+  },
+  {
+    "id": "34129727-898e-4e79-9879-b91c579859fa",
+    "data": [
+      {
+        "text": "is anybody home?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1536551411
+  }
+]

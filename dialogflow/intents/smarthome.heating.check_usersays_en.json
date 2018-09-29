@@ -1,0 +1,757 @@
+[
+  {
+    "id": "35bbbcbd-d409-4a4a-b65a-9f6ed5872e57",
+    "data": [
+      {
+        "text": "what is the temperature in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "396d410b-88ac-457b-b175-ae90b22dc3de",
+    "data": [
+      {
+        "text": "can you check the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "kids room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7b9bf251-4a86-4857-92b2-1b51e2126953",
+    "data": [
+      {
+        "text": "can you report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f9affe55-b605-4250-b934-6b9087926cf3",
+    "data": [
+      {
+        "text": "check the ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "alias": "device",
+        "meta": "@heating",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7245b74a-e22b-4c5a-9eea-b6d38bf41a4a",
+    "data": [
+      {
+        "text": "tell me the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "all",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      },
+      {
+        "text": " rooms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32930972-3002-42d1-a447-a4749a5f0eef",
+    "data": [
+      {
+        "text": "temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1649721b-a605-4a5c-aa4e-9f823b36ce09",
+    "data": [
+      {
+        "text": "what\u0027s the temperature in the ",
+        "userDefined": false
+      },
+      {
+        "text": "living room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1f02cb3b-1967-433d-b241-4b7d68f9bc6f",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05ceda5e-7430-47d3-a3ef-ca5333159344",
+    "data": [
+      {
+        "text": "what\u0027s the temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fa3be40f-7e48-48ce-b699-8a799644f04d",
+    "data": [
+      {
+        "text": "check ",
+        "userDefined": false
+      },
+      {
+        "text": "heating",
+        "alias": "device",
+        "meta": "@heating",
+        "userDefined": true
+      },
+      {
+        "text": " in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7199be02-9dc1-400c-97cb-28bc259a8ce9",
+    "data": [
+      {
+        "text": "what is the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a5eb4b14-eb58-4d63-b413-05d0f97e62fb",
+    "data": [
+      {
+        "text": "check temperature in the ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7a4612bd-5b20-442c-9f50-bdde699a7cef",
+    "data": [
+      {
+        "text": "what is the temp",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d4adbbbe-9cf6-4126-a730-37aa8b9019a7",
+    "data": [
+      {
+        "text": "what\u0027s the temperature ",
+        "userDefined": false
+      },
+      {
+        "text": "everywhere",
+        "alias": "all",
+        "meta": "@all",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fdbc8fff-cd0b-4875-92d7-9a3016236453",
+    "data": [
+      {
+        "text": "tell me the temperature for ",
+        "userDefined": false
+      },
+      {
+        "text": "dining room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "19bb3474-4fef-4ed4-a04f-f7abca3124fe",
+    "data": [
+      {
+        "text": "report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "930783a3-12a3-4993-b665-fa7a162f10af",
+    "data": [
+      {
+        "text": "what is ",
+        "userDefined": false
+      },
+      {
+        "text": "cooling point",
+        "alias": "device",
+        "meta": "@heating",
+        "userDefined": true
+      },
+      {
+        "text": " set as",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "455cc3a7-99b5-41fb-a83e-de0ecee18ed7",
+    "data": [
+      {
+        "text": "is ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "20",
+        "alias": "value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "be787065-6683-477d-a043-3f907a95d639",
+    "data": [
+      {
+        "text": "check ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a824dd55-6fc9-46c0-9541-9d3a664beecc",
+    "data": [
+      {
+        "text": "what s the temperature in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2223d915-a4eb-4ae6-8272-8800c24408d3",
+    "data": [
+      {
+        "text": "report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "kids room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "317bb919-551b-4604-849c-2d3b08031890",
+    "data": [
+      {
+        "text": "tell me the temp level",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a60f6a3d-ed0b-4697-b058-f7a82ddbc662",
+    "data": [
+      {
+        "text": "tell me what\u0027s the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "dining room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15719240-7718-44f1-9983-14685064e6ca",
+    "data": [
+      {
+        "text": "what is the temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fccd67e3-5660-40e8-b15c-24646eae06a5",
+    "data": [
+      {
+        "text": "check temperature at ",
+        "userDefined": false
+      },
+      {
+        "text": "home",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "3c414496-a6b0-4835-9db1-1377717681b4",
+    "data": [
+      {
+        "text": "report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e5cf3f54-fb8a-4da7-8aaa-7f12254e0d75",
+    "data": [
+      {
+        "text": "what is the temperature of ",
+        "userDefined": false
+      },
+      {
+        "text": "motion sensor",
+        "alias": "device",
+        "meta": "@heating",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6628b715-e68d-4f4f-a90f-120388ea990e",
+    "data": [
+      {
+        "text": "check temperature in the ",
+        "userDefined": false
+      },
+      {
+        "text": "kitchen",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "c90a37cf-b23e-48c2-a51c-deed967d9638",
+    "data": [
+      {
+        "text": "can you report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " now",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4846bb8f-03ff-4160-b7a3-239b0231dc71",
+    "data": [
+      {
+        "text": "is temperature high",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "03ef622c-1ac3-4b3a-b6d6-15975dfa81d0",
+    "data": [
+      {
+        "text": "please check ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom\u0027s",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1bb564c2-5424-4e61-a55d-6021891584ee",
+    "data": [
+      {
+        "text": "tell me the temperature",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9257d5e2-45e6-4528-b9ee-fc250039c867",
+    "data": [
+      {
+        "text": "please check the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "kids room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5b0040a8-7f0b-4cd5-ac50-b308cca79c98",
+    "data": [
+      {
+        "text": "can you report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      },
+      {
+        "text": " for me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "83aa1186-a497-44d6-8480-99ffc81ad0c3",
+    "data": [
+      {
+        "text": "what\u0027s the ",
+        "userDefined": false
+      },
+      {
+        "text": "temperature",
+        "meta": "@sys.ignore",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c6b37f4c-a6c5-46e9-89a5-c0bb8e7da491",
+    "data": [
+      {
+        "text": "is temp ",
+        "userDefined": false
+      },
+      {
+        "text": "25",
+        "alias": "value",
+        "meta": "@sys.number",
+        "userDefined": true
+      },
+      {
+        "text": " degrees",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1cef19c-05b8-4c24-8ae2-3ec338a8bab3",
+    "data": [
+      {
+        "text": "what\u0027s the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "bedroom",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "bc07324d-29c8-42fc-8300-46a2e8dbd668",
+    "data": [
+      {
+        "text": "tell me the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "dining room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "665f1da2-1c81-430e-8cb0-c2e889555c92",
+    "data": [
+      {
+        "text": "can you report the temperature in ",
+        "userDefined": false
+      },
+      {
+        "text": "kids room",
+        "alias": "room",
+        "meta": "@room",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

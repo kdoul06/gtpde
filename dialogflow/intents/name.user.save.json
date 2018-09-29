@@ -1,0 +1,71 @@
+{
+  "id": "98fcdfff-a7c2-45b1-83db-db0b4d162452",
+  "name": "name.user.save",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.save",
+      "affectedContexts": [
+        {
+          "name": "name",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "aa6ffdfd-4525-4a14-b9a2-c4261b2c960a",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "39c3882e-a34c-4f8d-a749-54690024c2cb",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "905fcbbe-52d0-477c-92d9-f15270797005",
+          "required": false,
+          "dataType": "@nick-name",
+          "name": "nick-name",
+          "value": "$nick-name",
+          "isList": false
+        },
+        {
+          "id": "d125bdd1-2559-44a0-a4b9-ed013f48b905",
+          "required": false,
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Nice to know $given-name",
+            "Greetings $nick-name"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531099409,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,58 @@
+{
+  "id": "5d1759cb-6eb1-4cec-bde2-d7391c9a932d",
+  "name": "name.user.change",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.change",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "2ffed872-78e2-44eb-978a-2dba25c26b84",
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "be361370-4b30-4c46-850e-af4d384b1b71",
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "ff2901f5-da7d-4e40-bdde-9eec608f029b",
+          "dataType": "@nick-name",
+          "name": "nick-name",
+          "value": "$nick-name",
+          "isList": false
+        },
+        {
+          "id": "a35c5d21-e345-48bf-8ba1-0e6b6de40576",
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1499763079,
+  "fallbackIntent": false,
+  "events": []
+}

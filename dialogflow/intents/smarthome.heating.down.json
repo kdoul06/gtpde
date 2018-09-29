@@ -1,0 +1,76 @@
+{
+  "id": "d292dc40-f9f8-4041-987b-766906491025",
+  "name": "smarthome.heating.down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.down",
+      "affectedContexts": [
+        {
+          "name": "heating",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ea843c67-5044-4742-a709-9f0cbf68bf6c",
+          "dataType": "@heating",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "b222d93b-1137-4998-a71e-c8af50047a2a",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "404a5885-8023-419c-a4b8-3cf417d2f1c7",
+          "dataType": "@sys.number",
+          "name": "change-value",
+          "value": "$change-value"
+        },
+        {
+          "id": "7f1660b3-df67-4358-97cf-d6f98907fb4a",
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value"
+        },
+        {
+          "id": "2e460a47-f70d-4218-af89-5b7a7ce72f0b",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562049,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "370dd9c2-fd73-4030-99d3-6e885580b09e",
+  "name": "smarthome.device.switch - context:device-switch - comment:add or change device",
+  "auto": true,
+  "contexts": [
+    "device-switch"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#device-switch.intent_action",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "29689272-d261-4cfe-923b-b9089898555c",
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561711,
+  "fallbackIntent": false,
+  "events": []
+}

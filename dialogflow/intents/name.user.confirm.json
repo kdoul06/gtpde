@@ -1,0 +1,68 @@
+{
+  "id": "75b7f194-b22d-4a59-b3c5-59773deafec9",
+  "name": "name.user.confirm",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "name.user.confirm",
+      "affectedContexts": [
+        {
+          "name": "givenName",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "16a6cbe1-ca28-4408-a825-2de5ef23f051",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "isList": false
+        },
+        {
+          "id": "b517d9ce-e05f-41ea-b0a5-1a4be145c308",
+          "required": false,
+          "dataType": "@nick-name",
+          "name": "nick-name",
+          "value": "$nick-name",
+          "isList": false
+        },
+        {
+          "id": "4fde3499-31b1-444e-b593-ff5d2a68e871",
+          "required": false,
+          "dataType": "@sys.last-name",
+          "name": "last-name",
+          "value": "$last-name",
+          "isList": false
+        },
+        {
+          "id": "effe08e5-70a0-4666-b59d-5ea3f0c8346b",
+          "required": false,
+          "dataType": "@name-type",
+          "name": "type",
+          "value": "$type",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1531097733,
+  "fallbackIntent": false,
+  "events": []
+}

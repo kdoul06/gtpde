@@ -1,0 +1,46 @@
+{
+  "id": "87ff0841-2d50-4ae1-9afd-764e053c40b1",
+  "name": "smarthome - context:room - comment:specify or change room",
+  "auto": true,
+  "contexts": [
+    "room"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "#room.intent_action",
+      "affectedContexts": [
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b268d918-d70c-4572-9804-3288510938b1",
+          "required": false,
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "I\u0027m going to #switch at $room"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1535713824,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,79 @@
+{
+  "id": "9eb75ae1-1df2-49ff-926c-ca6fd4ac6c1f",
+  "name": "smarthome.lights.brightness.schedule.down",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.brightness.schedule.down",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "678f8e44-0658-41ec-b647-a44de893771f",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "24b1a523-863d-4bd5-81fb-337d1e85ccca",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        },
+        {
+          "id": "afdedcc5-2c0b-40b5-824a-1ae3fb93c1c5",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        },
+        {
+          "id": "42ce630d-cbf2-45c6-b4cf-890e40460c92",
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time"
+        },
+        {
+          "id": "d223741e-5b39-475c-a088-21d9d34fb5d5",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "48f789cb-7886-4e1a-9800-33f039f972cf",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "a4876daf-5f6a-4e95-a8fe-99ccd470256b",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562248,
+  "fallbackIntent": false,
+  "events": []
+}

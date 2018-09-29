@@ -1,0 +1,79 @@
+{
+  "id": "0967e046-7008-4a08-8237-4c065c950bcb",
+  "name": "smarthome.heating.schedule.up",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.schedule.up",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d677028b-f23b-444c-b2a2-e34223adda81",
+          "dataType": "@sys.number",
+          "name": "change-value",
+          "value": "$change-value"
+        },
+        {
+          "id": "b9722a84-aadd-46c6-a709-13310f54709e",
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value"
+        },
+        {
+          "id": "04bb2d22-8d8f-4abb-86ca-26d94796ad3c",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What time?"
+            }
+          ]
+        },
+        {
+          "id": "e711bc7a-9ec9-4cc4-9a13-af28846933fa",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "0568a465-4223-47d6-ade6-f2b3e96bbf56",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "a48c1887-e32c-45dc-b945-2f5c05f87172",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "aa0ce19f-2248-4d69-a7ad-0e482f756154",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562090,
+  "fallbackIntent": false,
+  "events": []
+}

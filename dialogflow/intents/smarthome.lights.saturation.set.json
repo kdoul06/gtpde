@@ -1,0 +1,61 @@
+{
+  "id": "e7a8532e-b007-4faa-b328-2b965e5c2aec",
+  "name": "smarthome.lights.saturation.set",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.lights.saturation.set",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "dca34d4f-d360-4760-a000-feba3d3fd30d",
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value"
+        },
+        {
+          "id": "0d143817-9824-4565-b33e-58c5eed86223",
+          "dataType": "@lights",
+          "name": "device",
+          "value": "$device",
+          "isList": false
+        },
+        {
+          "id": "03e098a8-1f4b-4b35-8234-14ebf6574698",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        },
+        {
+          "id": "2ce48757-871a-4fc5-9880-da3803f83a59",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "ea2d1ca9-c732-4e2e-a9c4-b2b6c8aa7f93",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562380,
+  "fallbackIntent": false,
+  "events": []
+}

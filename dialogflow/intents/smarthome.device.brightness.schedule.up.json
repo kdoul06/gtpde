@@ -1,0 +1,72 @@
+{
+  "id": "64fb6f31-bad4-4d3c-8e8f-a990e7e3512b",
+  "name": "smarthome.device.brightness.schedule.up",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.brightness.schedule.up",
+      "affectedContexts": [
+        {
+          "name": "schedule",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "f2b90602-c15e-402c-bd22-6dad9e10c015",
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "0d42ac94-d085-4825-b8a8-127c9030ba32",
+          "dataType": "@sys.date-time",
+          "name": "date-time",
+          "value": "$date-time"
+        },
+        {
+          "id": "08a882b5-27d3-4a4a-b78f-a884c1bf7dd0",
+          "dataType": "@condition",
+          "name": "condition",
+          "value": "$condition"
+        },
+        {
+          "id": "486497b6-4da5-43f2-9efe-fd5807e8ead0",
+          "dataType": "@recurrence",
+          "name": "recurrence",
+          "value": "$recurrence"
+        },
+        {
+          "id": "32be1a67-872f-4cfa-aa6d-a5ff738581d8",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "cdd9a7ab-8383-4003-ad26-2a563098752e",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865562754,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "2d4a3c9d-5187-4730-8a87-ced411ec786f",
+  "name": "smarthome.scene.activate",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "88cb2eab-12b5-4a39-b2ce-043a9153f6d8",
+          "required": false,
+          "dataType": "@scene_trigger",
+          "name": "scene_trigger",
+          "value": "$scene_trigger",
+          "isList": false
+        },
+        {
+          "id": "185a66a3-831c-4d73-b21a-97569595909d",
+          "required": false,
+          "dataType": "@scene_choice",
+          "name": "scene_choice",
+          "value": "$scene_choice",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537755424,
+  "fallbackIntent": false,
+  "events": []
+}

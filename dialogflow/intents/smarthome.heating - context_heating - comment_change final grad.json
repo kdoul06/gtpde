@@ -1,0 +1,38 @@
+{
+  "id": "fff693ee-1dbe-491e-a099-398a5e5a7852",
+  "name": "smarthome.heating - context:heating - comment:change final grad",
+  "auto": true,
+  "contexts": [
+    "heating"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.heating.set",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e7a8af52-6443-470e-b071-e8f60c80da71",
+          "dataType": "@sys.number",
+          "name": "final-value",
+          "value": "$final-value"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561956,
+  "fallbackIntent": false,
+  "events": []
+}

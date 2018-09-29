@@ -1,0 +1,128 @@
+[
+  {
+    "id": "a7ea2645-c692-4ed6-a962-2a52799fd8da",
+    "data": [
+      {
+        "text": "and ",
+        "userDefined": false
+      },
+      {
+        "text": "tv",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e238928-0686-4769-a441-d70f88ccdba2",
+    "data": [
+      {
+        "text": "and the ",
+        "userDefined": false
+      },
+      {
+        "text": "video player",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      },
+      {
+        "text": " too please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48f577fd-5a5c-4462-812d-17e8d4797b68",
+    "data": [
+      {
+        "text": "also the ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b936f892-0509-4220-8ee8-fee04291666a",
+    "data": [
+      {
+        "text": "video player",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "785e9b62-2281-4c42-8a62-461bf4e4c869",
+    "data": [
+      {
+        "text": "what about ",
+        "userDefined": false
+      },
+      {
+        "text": "thermostat",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c8cd1cf-5cfb-4025-be33-0bea2255b0d2",
+    "data": [
+      {
+        "text": "video player",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      },
+      {
+        "text": " too",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "890d5f84-290e-438b-ad5e-d5f42564f01b",
+    "data": [
+      {
+        "text": "and ",
+        "userDefined": false
+      },
+      {
+        "text": "air conditioner",
+        "alias": "device",
+        "meta": "@device",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

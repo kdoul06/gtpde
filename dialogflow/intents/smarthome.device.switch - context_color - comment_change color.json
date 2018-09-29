@@ -1,0 +1,44 @@
+{
+  "id": "01f19453-79d2-4790-b4e3-577d4145cf8e",
+  "name": "smarthome.device.switch - context:color - comment:change color",
+  "auto": true,
+  "contexts": [
+    "color"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.switch.on",
+      "affectedContexts": [
+        {
+          "name": "color",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "28b8c75e-136e-4415-be44-c37714e0c09c",
+          "dataType": "@color",
+          "name": "color",
+          "value": "$color"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561709,
+  "fallbackIntent": false,
+  "events": []
+}

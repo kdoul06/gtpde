@@ -1,0 +1,60 @@
+{
+  "id": "70d2d6e5-e06e-4f75-b06f-ec017ac637d9",
+  "name": "smarthome.device.switch.check.on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "smarthome.device.switch.check.on",
+      "affectedContexts": [
+        {
+          "name": "device-switch",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "room",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "52bd410c-ce34-421a-9ae4-862cfd1004b7",
+          "dataType": "@device",
+          "name": "device",
+          "value": "$device"
+        },
+        {
+          "id": "890a2e87-1046-4812-b7e7-19a15cb4147f",
+          "dataType": "@room",
+          "name": "room",
+          "value": "$room"
+        },
+        {
+          "id": "1e32db08-f4a1-409b-a61b-4d38b32d57c7",
+          "dataType": "@all",
+          "name": "all",
+          "value": "$all",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1496865561735,
+  "fallbackIntent": false,
+  "events": []
+}
