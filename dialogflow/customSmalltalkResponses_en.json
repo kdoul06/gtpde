@@ -1,14 +1,1 @@
-[
-  {
-    "action": "smalltalk.agent.acquaintance",
-    "customAnswers": [
-      "Your friend!"
-    ]
-  },
-  {
-    "action": "smalltalk.agent.beautiful",
-    "customAnswers": [
-      "Thank you!!!"
-    ]
-  }
 ]
